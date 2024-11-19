@@ -1,108 +1,136 @@
-<!-- Remove below in src/markdown/Header.j2.md not in README.md -->
+# Rafael Julio Lemos Silva's CV
 
-# RenderCV Pipeline
-
-Are you ready to revolutionize the way you manage and craft your CVs and resumes?
-
-Picture this:
-
-1.  You simply update your `src/John_Doe_CV.yaml` input file and push the changes.
-2.  Then, a pipeline generates a new PDF and Markdown from it and uploads it to the repository.
-3.  When you are done with your work, you can create a new release on GitHub, tagging your CV with something like `v2024.04`. The pipeline will automatically add the PDF and its $\LaTeX$ source as assets to the release.
-4.  You have successfully created your CV pipeline, and all the history is in safe hands and reproducible.
-
-**How to start?**
-
-1.  [Click here](https://github.com/new?template_name=rendercv-pipeline&template_owner=sinaatalay) to create your CV repository based on this `rendercv-pipeline` template repository.
-2.  Edit either
-    -  the `src/John_Doe_CV.yaml` file, or
-    -  the contents of `src/markdown` or `src/classic` directories
-    
-    and push. Then, see the magic happen.
-
-**Some tips**
-
--  Learn more about [RenderCV](https://github.com/sinaatalay/rendercv) to understand what you can do with this tool.
--  Edit and preview your CV in your browser without installing anything by creating a codespace. Click the <> **Code** button, then click the **Codespaces** tab, and then click **Create codespace on main**. The environment will be ready for RenderCV usage. Update `.vscode/launch.json` to point to your YAML file and press `F5` to run RenderCV in the browser.
-
-<!-- Remove above in src/markdown/Header.j2.md not in README.md -->
-# John Doe's CV
-
-- Phone: +90 541 999 99 99
-- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
-- Location: Your Location
-- Website: [yourwebsite.com](https://yourwebsite.com/)
-- LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Phone: +55 11 99463 8955
+- Email: [work@rafifos.dev](mailto:work@rafifos.dev)
+- Location: São Paulo, Brazil
+- Website: [rafifos.dev](https://rafifos.dev/)
+- LinkedIn: [rafifos](https://linkedin.com/in/rafifos)
+- GitHub: [rafifos](https://github.com/rafifos)
 
 
-# Welcome to RenderCV!
+# Summary
 
-[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.
+I'm detail-oriented and always strive to write clean, maintainable, and reusable code. I enjoy automating tasks and environments (Bash, Zsh, dotfiles, Docker, etc.).
 
-The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
+Graduated in Systems Analysis and Development from Faculdade Impacta, I have experience with Ruby on Rails, JavaScript/TypeScript, and DevOps (containerizing services with Docker, CI/CD pipelines with GitLab CI/CD, GitHub Actions, and AWS CodeBuild), along with working with AWS, Kubernetes, Helm, and Terraform.
 
-# Quick Guide
+My main stack is JavaScript, TypeScript, React, and Next.js.
 
-- Each section title is arbitrary and each section contains a list of entries.
-- There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
-- Select a section title, pick an entry type, and start writing your section!
-- [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
-# Education
-
-## University of Pennsylvania, BS in Computer Science
-
-- Sept 2000 – May 2005
-- GPA: 3.9/4.0 ([Transcript](https://example.com))
-- **Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+I'm also active in Android OS communities, where I contribute with investigations, bug fixes, localization, and internal Android components.
 
 # Experience
 
-## Apple, Software Engineer
+## International School Education, Systems Development Specialist
 
-- June 2005 – Aug 2007
-- Cupertino, CA
-- Reduced time to render user buddy lists by 75% by implementing a prediction algorithm
-- Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-- Redesigned chat file format and implemented backward compatibility for search
+- Jul 2024 to present
+- São Paulo, Brazil
+- Implementation of interactive student activities using H5P
+- Integrations with third-party services
+- Case studies on AI use cases
 
-## Microsoft, Software Engineer Intern
+## AeC, Senior Systems Developer
 
-- June 2003 – Aug 2003
-- Redmond, WA
-- Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-- Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-- Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-- Created a test case generation tool that creates random XML docs from XML Schema
-- Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+- Jul 2023 to Jun 2024
+- São Paulo, Brazil (Remote)
+- Comment moderation for courses and articles
+- Public courses to expand the LMS's reach
+- Bugfixes for SCORM contents
+- Optimizations for the LMS's performance
+- Reports for the LMS's usage
+- Google Analytics integration
 
-# Publications
+## Stefanini Brazil, Senior Systems Developer (Remote)
 
-## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Frodo Baggins, ***John Doe***, Samwise Gamgee
+- Jan 2023 to Jun 2023
+- São Paulo, Brazil
+- Development of flows such as Power Outage Reporting and Facial/Document Recognition
+- Creation of the Digital Agency Homepage, focusing on intuitive navigation
+- Bug fixes and improvements to ensure a seamless user experience
+
+## Me Salva!, Front-end Web Developer
+
+- Feb 2021 to Oct 2022
+- Porto Alegre, Brazil (Remote)
+- Participated in architectural discussions and the development of the company's Design System (MARS), collaborating with the design consultancy across all phases, from prototyping to implementation, ensuring standardization and visual consistency
+- Contributed to the rewrite of the Me Salva! platform using MARS, engaging in architecture, design, and feature implementation decisions, enhancing scalability and modernization
+- Developed internal libraries to improve Developer Experience, configuring TypeScript, linters (ESLint, Prettier), Jest, Conventional Commits, Rollup, semantic-release, and CI/CD (Heroku and GitHub Actions)
+- Acted as a technical reference for junior developers, providing support, pair programming, and assisting in the maintenance of legacy projects with improvements and new functionalities
+
+## Quero Educação, Junior Web Developer
+
+- Sep 2020 to Feb 2021
+- São Paulo, Brazil (Remote)
+- Contributed to the development of the Nota Quero application, part of the Vestibular Premiado project, focusing on performance and scalability improvements for both the back-end (Node.js with Nest.js) and front-end (React)
+- Implemented horizontal autoscaling, adjusted Amazon RDS instances, and utilized Amazon SQS queues for messaging, reducing the application's response time from 10 seconds to 0.05 seconds, significantly enhancing the user experience
+- Acted as a DevOps Associate, bridging the gap between the development squad and the DevOps team, implementing AWS solutions and Infrastructure as Code (IaC)
+
+## Quero Educação, Web Development Intern
+
+- Aug 2019 to Sep 2020
+- São Paulo, Brazil
+- Contributed to the development of new features, product improvements, and strategic innovations at Quero, using agile methodologies and modern tools
+- Developed critical features for the app (React Native), including Digital Enrollment and Branding updates, while also participating in React Native version upgrades to ensure best practices and performance optimization
+- Enhanced the resilience and stability of the Digital Enrollment feature by fixing bugs and implementing improvements, delivering a smoother user experience
+- Participated in a multidisciplinary team to test and validate new approaches to the company’s business model, exploring strategic alternatives for expansion and innovation
+
+## Banco Fibra, Systems Development Intern
+
+- Mar 2019 to Apr 2019
+- São Paulo, Brazil
+- Conversion of VB6 macros to SSRS 2012
+- Creation and optimization of SQL queries
+- Support for the operations team with databases and reports
+- Development of solutions that improved the quality and speed of existing tools
+
+# Education
+
+## Faculdade Impacta, AT in Systems Analysis and Development
+
+- Oct 2020 to Dec 2022
+- São Paulo, Brazil
+
+## Universidade Anhembi Morumbi, AT in Systems Analysis and Development
+
+- Jul 2019 to Sep 2020
+- São Paulo, Brazil
+
+## FIAP, BS in Computer Engineering
+
+- Jan 2018 to Dec 2018
+- São Paulo, Brazil
+- Health Tech Challenge: In partnership with the Beneficência Portuguesa Hospital, first-year Computer Engineering students were challenged to use new technologies to monitor and reduce noise in hospital corridors by building a line-following robot
+
+## ETEC - Escola Técnica Estadual de São Paulo, TVET in Informatics
+
+- Jan 2016 to Jun 2017
+- Francisco Morato, São Paulo, Brazil
+- For my thesis, along with a few classmates, I developed a game using the Unity engine, which was presented at the semester's project fair. The project was a low-poly FPS, and I used ray casting for the computation of gunshots.
 
 # Projects
 
-## Multi-User Drawing Tool
+## Personal Website
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-- Tools Used: C++, MFC
+- [github.com/rafifos/website](https://github.com/rafifos/website)
+- Developed a personal website using Next.js, React, TypeScript, and Tailwind CSS
+- Deployed to Vercel with a custom Domain
 
-## Synchronized Desktop Calendar
+## Dotfiles
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-- Tools Used: C#, .NET, SQL, XML
+- [github.com/rafifos/dotfiles](https://github.com/rafifos/dotfiles)
+- Bootstraped my development environment with a script that installs all the necessary tools
+- Configured my development environment with Fish, fundle, and custom plugins
+- Management of multiple configurations for different machines
+- Private configurations signed with GPG for security
 
-## Custom Operating System
+## Iosevka Custom
 
-- 2002
-- Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-- Tools Used: C
+- [github.com/rafifos/IosevkaCustom](https://github.com/rafifos/IosevkaCustom)
+- Customized the Iosevka font with a few ligatures and symbols
+- Built the font with a custom name and variant
+- Created a pipeline to build the font with GitHub Actions, with the artifacts available for download
+- GitHub actions are cached to speed up the build process
 
 # Technologies
 
-- Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript
-- Technologies: .NET, Microsoft SQL Server, XCode, Interface Builder
+- Languages: HTML, CSS, JavaScript, TypeScript, Shellscript (Bash, Zsh, Fish), Ruby, SQL, JSON, YAML, TOML
+- Technologies: React, Next.js, Node.js, Ruby on Rails, Docker, AWS, Git, GitHub, GitLab, Android OS, Android Studio, Android SDK, Android Emulator, Android Debug Bridge (ADB), Android Virtual Device Manager (AVD)

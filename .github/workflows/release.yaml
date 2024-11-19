@@ -4,10 +4,10 @@ on:
   push:
     tags:
       - "*" # Any tag pushed to the repository
-      
+
 permissions:
   contents: write
-  
+
 jobs:
   call_rendercv_workflow:
     name: RenderCV
@@ -19,11 +19,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Download RenderCV Output
         uses: actions/download-artifact@v4
         with:
           name: RenderCV Output
           path: rendercv_output
+
       - name: Release
         uses: softprops/action-gh-release@v2
         with:

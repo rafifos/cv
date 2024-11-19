@@ -1,0 +1,214 @@
+cv:
+  name: Rafael Julio Lemos Silva
+  location: São Paulo, Brazil
+  email: work@rafifos.dev
+  phone: tel:+55-11-99463-8955
+  website: https://rafifos.dev
+  social_networks:
+    - network: LinkedIn
+      username: rafifos
+    - network: GitHub
+      username: rafifos
+  sections:
+    summary:
+      - I'm detail-oriented and always strive to write clean, maintainable, and reusable code. I enjoy automating tasks and environments (Bash, Zsh, dotfiles, Docker, etc.).
+      - Graduated in Systems Analysis and Development from Faculdade Impacta, I have experience with Ruby on Rails, JavaScript/TypeScript, and DevOps (containerizing services with Docker, CI/CD pipelines with GitLab CI/CD, GitHub Actions, and AWS CodeBuild), along with working with AWS, Kubernetes, Helm, and Terraform.
+      - My main stack is JavaScript, TypeScript, React, and Next.js.
+      - I'm also active in Android OS communities, where I contribute with investigations, bug fixes, localization, and internal Android components.
+    experience:
+      - company: International School Education
+        position: Systems Development Specialist
+        location: São Paulo, Brazil
+        start_date: 2024-07
+        end_date: present
+        highlights:
+          - Implementation of interactive student activities using H5P
+          - Integrations with third-party services
+          - Case studies on AI use cases
+      - company: AeC
+        position: Senior Systems Developer
+        location: São Paulo, Brazil (Remote)
+        start_date: 2023-07
+        end_date: 2024-06
+        highlights:
+          - Comment moderation for courses and articles
+          - Public courses to expand the LMS's reach
+          - Bugfixes for SCORM contents
+          - Optimizations for the LMS's performance
+          - Reports for the LMS's usage
+          - Google Analytics integration
+      - company: Stefanini Brazil
+        position: Senior Systems Developer (Remote)
+        location: São Paulo, Brazil
+        start_date: 2023-01
+        end_date: 2023-06
+        highlights:
+          - Development of flows such as Power Outage Reporting and Facial/Document Recognition
+          - Creation of the Digital Agency Homepage, focusing on intuitive navigation
+          - Bug fixes and improvements to ensure a seamless user experience
+      - company: Me Salva!
+        position: Front-end Web Developer
+        location: Porto Alegre, Brazil (Remote)
+        start_date: 2021-02
+        end_date: 2022-10
+        highlights:
+          - Participated in architectural discussions and the development of the company's Design System (MARS), collaborating with the design consultancy across all phases, from prototyping to implementation, ensuring standardization and visual consistency
+          - Contributed to the rewrite of the Me Salva! platform using MARS, engaging in architecture, design, and feature implementation decisions, enhancing scalability and modernization
+          - Developed internal libraries to improve Developer Experience, configuring TypeScript, linters (ESLint, Prettier), Jest, Conventional Commits, Rollup, semantic-release, and CI/CD (Heroku and GitHub Actions)
+          - Acted as a technical reference for junior developers, providing support, pair programming, and assisting in the maintenance of legacy projects with improvements and new functionalities
+      - company: Quero Educação
+        position: Junior Web Developer
+        location: São Paulo, Brazil (Remote)
+        start_date: 2020-09
+        end_date: 2021-02
+        highlights:
+          - Contributed to the development of the Nota Quero application, part of the Vestibular Premiado project, focusing on performance and scalability improvements for both the back-end (Node.js with Nest.js) and front-end (React)
+          - Implemented horizontal autoscaling, adjusted Amazon RDS instances, and utilized Amazon SQS queues for messaging, reducing the application's response time from 10 seconds to 0.05 seconds, significantly enhancing the user experience
+          - Acted as a DevOps Associate, bridging the gap between the development squad and the DevOps team, implementing AWS solutions and Infrastructure as Code (IaC)
+      - company: Quero Educação
+        position: Web Development Intern
+        location: São Paulo, Brazil
+        start_date: 2019-08
+        end_date: 2020-09
+        highlights:
+          - Contributed to the development of new features, product improvements, and strategic innovations at Quero, using agile methodologies and modern tools
+          - Developed critical features for the app (React Native), including Digital Enrollment and Branding updates, while also participating in React Native version upgrades to ensure best practices and performance optimization
+          - Enhanced the resilience and stability of the Digital Enrollment feature by fixing bugs and implementing improvements, delivering a smoother user experience
+          - Participated in a multidisciplinary team to test and validate new approaches to the company’s business model, exploring strategic alternatives for expansion and innovation
+      - company: Banco Fibra
+        position: Systems Development Intern
+        location: São Paulo, Brazil
+        start_date: 2019-03
+        end_date: 2019-04
+        highlights:
+          - Conversion of VB6 macros to SSRS 2012
+          - Creation and optimization of SQL queries
+          - Support for the operations team with databases and reports
+          - Development of solutions that improved the quality and speed of existing tools
+    education:
+      - institution: Faculdade Impacta
+        location: São Paulo, Brazil
+        degree: AT
+        area: Systems Analysis and Development
+        start_date: 2020-10
+        end_date: 2022-12
+      - institution: Universidade Anhembi Morumbi
+        location: São Paulo, Brazil
+        degree: AT
+        area: Systems Analysis and Development
+        start_date: 2019-07
+        end_date: 2020-09
+      - institution: FIAP
+        location: São Paulo, Brazil
+        degree: BS
+        area: Computer Engineering
+        highlights:
+          - "Health Tech Challenge: In partnership with the Beneficência Portuguesa Hospital, first-year Computer Engineering students were challenged to use new technologies to monitor and reduce noise in hospital corridors by building a line-following robot"
+        start_date: 2018-01
+        end_date: 2018-12
+      - institution: ETEC - Escola Técnica Estadual de São Paulo
+        location: Francisco Morato, São Paulo, Brazil
+        degree: TVET
+        area: Informatics
+        highlights:
+        - For my thesis, along with a few classmates, I developed a game using the Unity engine, which was presented at the semester's project fair. The project was a low-poly FPS, and I used ray casting for the computation of gunshots.
+        start_date: 2016-01
+        end_date: 2017-06
+    projects:
+      - name: Personal Website
+        date: '[github.com/rafifos/website](https://github.com/rafifos/website)'
+        highlights:
+          - Developed a personal website using Next.js, React, TypeScript, and Tailwind CSS
+          - Deployed to Vercel with a custom Domain
+      - name: Dotfiles
+        date: '[github.com/rafifos/dotfiles](https://github.com/rafifos/dotfiles)'
+        highlights:
+          - Bootstraped my development environment with a script that installs all the necessary tools
+          - Configured my development environment with Fish, fundle, and custom plugins
+          - Management of multiple configurations for different machines
+          - Private configurations signed with GPG for security
+      - name: Iosevka Custom
+        date: '[github.com/rafifos/IosevkaCustom](https://github.com/rafifos/IosevkaCustom)'
+        highlights:
+          - Customized the Iosevka font with a few ligatures and symbols
+          - Built the font with a custom name and variant
+          - Created a pipeline to build the font with GitHub Actions, with the artifacts available for download
+          - GitHub actions are cached to speed up the build process
+    technologies:
+      - label: Languages
+        details: HTML, CSS, JavaScript, TypeScript, Shellscript (Bash, Zsh, Fish), Ruby, SQL, JSON, YAML, TOML
+      - label: Technologies
+        details: React, Next.js, Node.js, Ruby on Rails, Docker, AWS, Git, GitHub, GitLab, Android OS, Android Studio, Android SDK, Android Emulator, Android Debug Bridge (ADB), Android Virtual Device Manager (AVD)
+
+design:
+  theme: sb2nov
+  font: Charter
+  font_size: 10pt
+  page_size: a4paper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 24 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 7 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+
+locale_catalog:
+  phone_number_format: national
+  date_style: "MONTH_ABBREVIATION YEAR"
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: to
