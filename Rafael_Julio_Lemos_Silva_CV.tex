@@ -1,4 +1,4 @@
-\documentclass[10pt, letterpaper]{article}
+\documentclass[10pt, a4paper]{article}
 
 % Packages:
 \usepackage[
@@ -10,7 +10,7 @@
     footskip=1.0 cm, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
-\usepackage[explicit]{titlesec} % for customizing section titles
+\usepackage{titlesec} % for customizing section titles
 \usepackage{tabularx} % for making tables with fixed width columns
 \usepackage{array} % tabularx requires this
 \usepackage[dvipsnames]{xcolor} % for coloring text
@@ -19,8 +19,8 @@
 \usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
 \usepackage[
-    pdftitle={John Doe's CV},
-    pdfauthor={John Doe},
+    pdftitle={Rafael Julio Lemos Silva's CV},
+    pdfauthor={Rafael Julio Lemos Silva},
     pdfcreator={LaTeX with RenderCV},
     colorlinks=true,
     urlcolor=primaryColor
@@ -39,12 +39,12 @@
 \ifPDFTeX
     \input{glyphtounicode}
     \pdfgentounicode=1
-    \usepackage[T1]{fontenc}
+    % \usepackage[T1]{fontenc} % this breaks sb2nov
     \usepackage[utf8]{inputenc}
     \usepackage{lmodern}
 \fi
 
-\usepackage[default, type1]{sourcesanspro} 
+\usepackage{charter}
 
 % Some settings:
 \AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
@@ -52,27 +52,16 @@
 \setcounter{secnumdepth}{0} % no section numbering
 \setlength{\parindent}{0pt} % no indentation
 \setlength{\topskip}{0pt} % no top skip
-\setlength{\columnsep}{0.15cm} % set column seperation
+\setlength{\columnsep}{0cm} % set column seperation
 \makeatletter
 \let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
 \patchcmd{\ps@customFooterStyle}{\thepage}{
-    \color{gray}\textit{\small John Doe - Page \thepage{} of \pageref*{LastPage}}
+    \color{gray}\textit{\small Rafael Julio Lemos Silva - Page \thepage{} of \pageref*{LastPage}}
 }{}{} % replace number by desired string
 \makeatother
 \pagestyle{customFooterStyle}
 
-\titleformat{\section}{
-    % avoid page braking right after the section title
-    \needspace{4\baselineskip}
-    % make the font size of the section title large and color it with the primary color
-    \Large\color{primaryColor}
-}{
-}{
-}{
-    % print bold title, give 0.15 cm space and draw a line of 0.8 pt thickness
-    % from the end of the title to the end of the body
-    \textbf{#1}\hspace{0.15cm}\titlerule[0.8pt]\hspace{-0.1cm}
-}[] % section title formatting
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
 \titlespacing{\section}{
     % left space:
@@ -85,7 +74,7 @@
     0.2 cm
 } % section title spacing
 
-% \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
+\renewcommand\labelitemi{$\circ$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
         topsep=0.10 cm,
@@ -124,7 +113,7 @@
 \newenvironment{twocolentry}[2][]{
     \onecolentry
     \def\secondColumn{#2}
-    \setcolumnwidth{\fill, 4.5 cm}
+    \setcolumnwidth{\fill, 7 cm}
     \begin{paracol}{2}
 }{
     \switchcolumn \raggedleft \secondColumn
@@ -132,20 +121,8 @@
     \endonecolentry
 } % new environment for two column entries
 
-\newenvironment{threecolentry}[3][]{
-    \onecolentry
-    \def\thirdColumn{#3}
-    \setcolumnwidth{1 cm, \fill, 4.5 cm}
-    \begin{paracol}{3}
-    {\raggedright #2} \switchcolumn
-}{
-    \switchcolumn \raggedleft \thirdColumn
-    \end{paracol}
-    \endonecolentry
-} % new environment for three column entries
-
 \newenvironment{header}{
-    \setlength{\topsep}{0pt}\par\kern\topsep\centering\color{primaryColor}\linespread{1.5}
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
 }{
     \par\kern\topsep
 } % new environment for the header
@@ -178,87 +155,63 @@
 
     \placelastupdatedtext
     \begin{header}
-        \fontsize{30 pt}{30 pt}
-        \textbf{John Doe}
+        \textbf{\fontsize{24 pt}{24 pt}\selectfont Rafael Julio Lemos Silva}
 
         \vspace{0.3 cm}
 
         \normalsize
-        \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Your Location}%
+        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}São Paulo, Brazil}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{mailto:youremail@yourdomain.com}{{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}youremail@yourdomain.com}}%
+        \mbox{\hrefWithoutArrow{mailto:work@rafifos.dev}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}work@rafifos.dev}}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{tel:+90-541-999-99-99}{{\footnotesize\faPhone*}\hspace*{0.13cm}0541 999 99 99}}%
+        \mbox{\hrefWithoutArrow{tel:+55-11-99463-8955}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}(11) 99463-8955}}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{https://yourwebsite.com/}{{\footnotesize\faLink}\hspace*{0.13cm}yourwebsite.com}}%
+        \mbox{\hrefWithoutArrow{https://rafifos.dev/}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}rafifos.dev}}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{https://linkedin.com/in/yourusername}{{\footnotesize\faLinkedinIn}\hspace*{0.13cm}yourusername}}%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/rafifos}{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.13cm}rafifos}}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{https://github.com/yourusername}{{\footnotesize\faGithub}\hspace*{0.13cm}yourusername}}%
+        \mbox{\hrefWithoutArrow{https://github.com/rafifos}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}rafifos}}%
     \end{header}
 
     \vspace{0.3 cm - 0.3 cm}
 
 
-    \section{Welcome to RenderCV!}
+    \section{Summary}
 
 
 
         
         \begin{onecolentry}
-            \href{https://github.com/sinaatalay/rendercv}{RenderCV} is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with \textbf{full Markdown syntax support} and \textbf{complete control over the LaTeX code}.
+            I'm detail-oriented and always strive to write clean, maintainable, and reusable code. I enjoy automating tasks and environments (Bash, Zsh, dotfiles, Docker, etc.).
         \end{onecolentry}
 
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            The boilerplate content was inspired by \href{https://github.com/dnl-blkv/mcdowell-cv}{Gayle McDowell}.
+            Graduated in Systems Analysis and Development from Faculdade Impacta, I have experience with Ruby on Rails, JavaScript/TypeScript, and DevOps (containerizing services with Docker, CI/CD pipelines with GitLab CI/CD, GitHub Actions, and AWS CodeBuild), along with working with AWS, Kubernetes, Helm, and Terraform.
         \end{onecolentry}
 
+        \vspace{0.2 cm}
 
-    
-    \section{Quick Guide}
+        \begin{onecolentry}
+            My main stack is JavaScript, TypeScript, React, and Next.js.
+        \end{onecolentry}
 
-    \begin{onecolentry}
-        \begin{highlightsforbulletentries}
+        \vspace{0.2 cm}
 
-
-        \item Each section title is arbitrary and each section contains a list of entries.
-
-        \item There are 7 unique entry types: \textit{BulletEntry}, \textit{TextEntry}, \textit{EducationEntry}, \textit{ExperienceEntry}, \textit{NormalEntry}, \textit{PublicationEntry}, and \textit{OneLineEntry}.
-
-        \item Select a section title, pick an entry type, and start writing your section!
-
-        \item \href{https://docs.rendercv.com/user_guide/}{Here}, you can find a comprehensive user guide for RenderCV.
-
-
-        \end{highlightsforbulletentries}
-    \end{onecolentry}
-
-    \section{Education}
-
-
-
-        
-        \begin{threecolentry}{\textbf{BS}}{
-            Sept 2000 – May 2005
-        }
-            \textbf{University of Pennsylvania}, Computer Science
-            \begin{highlights}
-                \item GPA: 3.9/4.0 (\href{https://example.com}{Transcript})
-                \item \textbf{Coursework:} Computer Architecture, Comparison of Learning Algorithms, Computational Theory
-            \end{highlights}
-        \end{threecolentry}
+        \begin{onecolentry}
+            I'm also active in Android OS communities, where I contribute with investigations, bug fixes, localization, and internal Android components.
+        \end{onecolentry}
 
 
     
@@ -268,62 +221,224 @@
 
         
         \begin{twocolentry}{
-            Cupertino, CA
-
-        June 2005 – Aug 2007
-
-        2 years 2 months
-        }
-            \textbf{Apple}, Software Engineer
-            \begin{highlights}
-                \item Reduced time to render user buddy lists by 75\% by implementing a prediction algorithm
-                \item Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-                \item Redesigned chat file format and implemented backward compatibility for search
-            \end{highlights}
+        \textit{São Paulo, Brazil}    
+            
+        \textit{Jul 2024 to present}}
+            \textbf{Systems Development Specialist}
+            
+            \textit{International School Education}
         \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Implementation of interactive student activities using H5P
+                \item Integrations with third-party services
+                \item Case studies on AI use cases
+            \end{highlights}
+        \end{onecolentry}
 
 
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            Redmond, WA
-
-        June 2003 – Aug 2003
-
-        2 months
-        }
-            \textbf{Microsoft}, Software Engineer Intern
-            \begin{highlights}
-                \item Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-                \item Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-                \item Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-                \item Created a test case generation tool that creates random XML docs from XML Schema
-                \item Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
-            \end{highlights}
+        \textit{São Paulo, Brazil (Remote)}    
+            
+        \textit{Jul 2023 to Jun 2024}}
+            \textbf{Senior Systems Developer}
+            
+            \textit{AeC}
         \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Comment moderation for courses and articles
+                \item Public courses to expand the LMS's reach
+                \item Bugfixes for SCORM contents
+                \item Optimizations for the LMS's performance
+                \item Reports for the LMS's usage
+                \item Google Analytics integration
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{São Paulo, Brazil}    
+            
+        \textit{Jan 2023 to Jun 2023}}
+            \textbf{Senior Systems Developer (Remote)}
+            
+            \textit{Stefanini Brazil}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Development of flows such as Power Outage Reporting and Facial/Document Recognition
+                \item Creation of the Digital Agency Homepage, focusing on intuitive navigation
+                \item Bug fixes and improvements to ensure a seamless user experience
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{Porto Alegre, Brazil (Remote)}    
+            
+        \textit{Feb 2021 to Oct 2022}}
+            \textbf{Front-end Web Developer}
+            
+            \textit{Me Salva!}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Participated in architectural discussions and the development of the company's Design System (MARS), collaborating with the design consultancy across all phases, from prototyping to implementation, ensuring standardization and visual consistency
+                \item Contributed to the rewrite of the Me Salva! platform using MARS, engaging in architecture, design, and feature implementation decisions, enhancing scalability and modernization
+                \item Developed internal libraries to improve Developer Experience, configuring TypeScript, linters (ESLint, Prettier), Jest, Conventional Commits, Rollup, semantic-release, and CI/CD (Heroku and GitHub Actions)
+                \item Acted as a technical reference for junior developers, providing support, pair programming, and assisting in the maintenance of legacy projects with improvements and new functionalities
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{São Paulo, Brazil (Remote)}    
+            
+        \textit{Sep 2020 to Feb 2021}}
+            \textbf{Junior Web Developer}
+            
+            \textit{Quero Educação}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Contributed to the development of the Nota Quero application, part of the Vestibular Premiado project, focusing on performance and scalability improvements for both the back-end (Node.js with Nest.js) and front-end (React)
+                \item Implemented horizontal autoscaling, adjusted Amazon RDS instances, and utilized Amazon SQS queues for messaging, reducing the application's response time from 10 seconds to 0.05 seconds, significantly enhancing the user experience
+                \item Acted as a DevOps Associate, bridging the gap between the development squad and the DevOps team, implementing AWS solutions and Infrastructure as Code (IaC)
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{São Paulo, Brazil}    
+            
+        \textit{Aug 2019 to Sep 2020}}
+            \textbf{Web Development Intern}
+            
+            \textit{Quero Educação}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Contributed to the development of new features, product improvements, and strategic innovations at Quero, using agile methodologies and modern tools
+                \item Developed critical features for the app (React Native), including Digital Enrollment and Branding updates, while also participating in React Native version upgrades to ensure best practices and performance optimization
+                \item Enhanced the resilience and stability of the Digital Enrollment feature by fixing bugs and implementing improvements, delivering a smoother user experience
+                \item Participated in a multidisciplinary team to test and validate new approaches to the company’s business model, exploring strategic alternatives for expansion and innovation
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{São Paulo, Brazil}    
+            
+        \textit{Mar 2019 to Apr 2019}}
+            \textbf{Systems Development Intern}
+            
+            \textit{Banco Fibra}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Conversion of VB6 macros to SSRS 2012
+                \item Creation and optimization of SQL queries
+                \item Support for the operations team with databases and reports
+                \item Development of solutions that improved the quality and speed of existing tools
+            \end{highlights}
+        \end{onecolentry}
 
 
 
     
-    \section{Publications}
+    \section{Education}
 
 
 
         
-        \begin{samepage}
-            \begin{twocolentry}{
-                Jan 2004
-            }
-                \textbf{3D Finite Element Analysis of No-Insulation Coils}
+        \begin{twocolentry}{
+        \textit{São Paulo, Brazil}    
+            
+        \textit{Oct 2020 to Dec 2022}}
+            \textbf{Faculdade Impacta}
 
-                \vspace{0.10 cm}
+            \textit{AT in Systems Analysis and Development}
+        \end{twocolentry}
 
-                \mbox{Frodo Baggins}, \mbox{\textbf{\textit{John Doe}}}, \mbox{Samwise Gamgee}
-                \vspace{0.10 cm}
 
-        \href{https://doi.org/10.1109/TASC.2023.3340648}{10.1109/TASC.2023.3340648}
-            \end{twocolentry}
-        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{São Paulo, Brazil}    
+            
+        \textit{Jul 2019 to Sep 2020}}
+            \textbf{Universidade Anhembi Morumbi}
+
+            \textit{AT in Systems Analysis and Development}
+        \end{twocolentry}
+
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{São Paulo, Brazil}    
+            
+        \textit{Jan 2018 to Dec 2018}}
+            \textbf{FIAP}
+
+            \textit{BS in Computer Engineering}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Health Tech Challenge: In partnership with the Beneficência Portuguesa Hospital, first-year Computer Engineering students were challenged to use new technologies to monitor and reduce noise in hospital corridors by building a line-following robot
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+        \textit{Francisco Morato, São Paulo, Brazil}    
+            
+        \textit{Jan 2016 to Jun 2017}}
+            \textbf{ETEC - Escola Técnica Estadual de São Paulo}
+
+            \textit{TVET in Informatics}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item For my thesis, along with a few classmates, I developed a game using the Unity engine, which was presented at the semester's project fair. The project was a low-poly FPS, and I used ray casting for the computation of gunshots.
+            \end{highlights}
+        \end{onecolentry}
+
 
 
     
@@ -333,40 +448,59 @@
 
         
         \begin{twocolentry}{
-            \href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}
-        }
-            \textbf{Multi-User Drawing Tool}
-            \begin{highlights}
-                \item Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-                \item Tools Used: C++, MFC
-            \end{highlights}
+            
+            
+        \textit{\href{https://github.com/rafifos/website}{github.com/rafifos/website}}}
+            \textbf{Personal Website}
         \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Developed a personal website using Next.js, React, TypeScript, and Tailwind CSS
+                \item Deployed to Vercel with a custom Domain
+            \end{highlights}
+        \end{onecolentry}
 
 
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            \href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}
-        }
-            \textbf{Synchronized Desktop Calendar}
-            \begin{highlights}
-                \item Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-                \item Tools Used: C\#, .NET, SQL, XML
-            \end{highlights}
+            
+            
+        \textit{\href{https://github.com/rafifos/dotfiles}{github.com/rafifos/dotfiles}}}
+            \textbf{Dotfiles}
         \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Bootstraped my development environment with a script that installs all the necessary tools
+                \item Configured my development environment with Fish, fundle, and custom plugins
+                \item Management of multiple configurations for different machines
+                \item Private configurations signed with GPG for security
+            \end{highlights}
+        \end{onecolentry}
 
 
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            2002
-        }
-            \textbf{Custom Operating System}
-            \begin{highlights}
-                \item Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-                \item Tools Used: C
-            \end{highlights}
+            
+            
+        \textit{\href{https://github.com/rafifos/IosevkaCustom}{github.com/rafifos/IosevkaCustom}}}
+            \textbf{Iosevka Custom}
         \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Customized the Iosevka font with a few ligatures and symbols
+                \item Built the font with a custom name and variant
+                \item Created a pipeline to build the font with GitHub Actions, with the artifacts available for download
+                \item GitHub actions are cached to speed up the build process
+            \end{highlights}
+        \end{onecolentry}
 
 
 
@@ -377,13 +511,13 @@
 
         
         \begin{onecolentry}
-            \textbf{Languages:} C++, C, Java, Objective-C, C\#, SQL, JavaScript
+            \textbf{Languages:} HTML, CSS, JavaScript, TypeScript, Shellscript (Bash, Zsh, Fish), Ruby, SQL, JSON, YAML, TOML
         \end{onecolentry}
 
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{Technologies:} .NET, Microsoft SQL Server, XCode, Interface Builder
+            \textbf{Technologies:} React, Next.js, Node.js, Ruby on Rails, Docker, AWS, Git, GitHub, GitLab, Android OS, Android Studio, Android SDK, Android Emulator, Android Debug Bridge (ADB), Android Virtual Device Manager (AVD)
         \end{onecolentry}
 
 
