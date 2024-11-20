@@ -11,7 +11,7 @@
       "module": "rendercv",
       "args": [
         "render",
-        "src/rafael-julio-lemos-silva-cv.yaml"
+        "src/Rafael_Julio_Lemos_Silva_CV.yaml"
       ]
     }
   ]

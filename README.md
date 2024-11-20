@@ -31,7 +31,7 @@ I'm also active in Android OS communities, where I contribute with investigation
 ## AeC, Senior Systems Developer
 
 - Jul 2023 to Jun 2024
-- São Paulo, Brazil (Remote)
+- São Paulo, Brazil
 - Comment moderation for courses and articles
 - Public courses to expand the LMS's reach
 - Bugfixes for SCORM contents
@@ -39,7 +39,7 @@ I'm also active in Android OS communities, where I contribute with investigation
 - Reports for the LMS's usage
 - Google Analytics integration
 
-## Stefanini Brazil, Senior Systems Developer (Remote)
+## Stefanini Brazil, Senior Systems Developer
 
 - Jan 2023 to Jun 2023
 - São Paulo, Brazil
@@ -50,7 +50,7 @@ I'm also active in Android OS communities, where I contribute with investigation
 ## Me Salva!, Front-end Web Developer
 
 - Feb 2021 to Oct 2022
-- Porto Alegre, Brazil (Remote)
+- Porto Alegre, Brazil
 - Participated in architectural discussions and the development of the company's Design System (MARS), collaborating with the design consultancy across all phases, from prototyping to implementation, ensuring standardization and visual consistency
 - Contributed to the rewrite of the Me Salva! platform using MARS, engaging in architecture, design, and feature implementation decisions, enhancing scalability and modernization
 - Developed internal libraries to improve Developer Experience, configuring TypeScript, linters (ESLint, Prettier), Jest, Conventional Commits, Rollup, semantic-release, and CI/CD (Heroku and GitHub Actions)
@@ -60,7 +60,7 @@ I'm also active in Android OS communities, where I contribute with investigation
 ## Quero Educação, Web Development Intern - Junior Web Developer
 
 - Aug 2019 to Feb 2021
-- São Paulo, Brazil (Remote)
+- São Paulo, Brazil
 - Contributed to the development of new features, product improvements, and strategic innovations at Quero, using agile methodologies and modern tools
 - Developed critical features for the app (React Native), including Digital Enrollment and Branding updates, while also participating in React Native version upgrades to ensure best practices and performance optimization
 - Enhanced the resilience and stability of the Digital Enrollment feature by fixing bugs and implementing improvements, delivering a smoother user experience

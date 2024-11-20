@@ -27,7 +27,7 @@ cv:
           - Case studies on AI use cases
       - company: AeC
         position: Senior Systems Developer
-        location: São Paulo, Brazil (Remote)
+        location: São Paulo, Brazil
         start_date: 2023-07
         end_date: 2024-06
         highlights:
@@ -38,7 +38,7 @@ cv:
           - Reports for the LMS's usage
           - Google Analytics integration
       - company: Stefanini Brazil
-        position: Senior Systems Developer (Remote)
+        position: Senior Systems Developer
         location: São Paulo, Brazil
         start_date: 2023-01
         end_date: 2023-06
@@ -48,7 +48,7 @@ cv:
           - Bug fixes and improvements to ensure a seamless user experience
       - company: Me Salva!
         position: Front-end Web Developer
-        location: Porto Alegre, Brazil (Remote)
+        location: Porto Alegre, Brazil
         start_date: 2021-02
         end_date: 2022-10
         highlights:
@@ -59,7 +59,7 @@ cv:
           - Acted as a technical reference for junior developers, providing support, pair programming, and assisting in the maintenance of legacy projects with improvements and new functionalities
       - company: Quero Educação
         position: Web Development Intern - Junior Web Developer
-        location: São Paulo, Brazil (Remote)
+        location: São Paulo, Brazil
         start_date: 2019-08
         end_date: 2021-02
         highlights:
@@ -234,10 +234,9 @@ locale_catalog:
 rendercv_settings:
   render_command:
     output_folder_name: out
-    pdf_path: NAME_IN_LOWER_KEBAB_CASE-cv.pdf
-    latex_path: NAME_IN_LOWER_KEBAB_CASE-cv.tex
-    html_path: out/NAME_IN_LOWER_KEBAB_CASE-cv.html
+    pdf_path: NAME_IN_SNAKE_CASE_CV.pdf
+    latex_path: NAME_IN_SNAKE_CASE_CV.tex
     markdown_path: README.md
-    dont_generate_html: false
+    dont_generate_html: true
     dont_generate_markdown: false
-    dont_generate_png: false
+    dont_generate_png: true
