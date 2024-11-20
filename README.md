@@ -14,7 +14,7 @@ I'm detail-oriented and always strive to write clean, maintainable, and reusable
 
 Graduated in Systems Analysis and Development from Faculdade Impacta, I have experience with Ruby on Rails, JavaScript/TypeScript, and DevOps (containerizing services with Docker, CI/CD pipelines with GitLab CI/CD, GitHub Actions, and AWS CodeBuild), along with working with AWS, Kubernetes, Helm, and Terraform.
 
-My main stack is JavaScript, TypeScript, React, and Next.js.
+My main stack is JavaScript, TypeScript, Node.js, React, and Next.js.
 
 I'm also active in Android OS communities, where I contribute with investigations, bug fixes, localization, and internal Android components.
 
@@ -54,24 +54,20 @@ I'm also active in Android OS communities, where I contribute with investigation
 - Participated in architectural discussions and the development of the company's Design System (MARS), collaborating with the design consultancy across all phases, from prototyping to implementation, ensuring standardization and visual consistency
 - Contributed to the rewrite of the Me Salva! platform using MARS, engaging in architecture, design, and feature implementation decisions, enhancing scalability and modernization
 - Developed internal libraries to improve Developer Experience, configuring TypeScript, linters (ESLint, Prettier), Jest, Conventional Commits, Rollup, semantic-release, and CI/CD (Heroku and GitHub Actions)
+- Developed an internal CMS allowing the content team to create and manage new pages, and content, improving the platform's agility and reducing the development team's workload
 - Acted as a technical reference for junior developers, providing support, pair programming, and assisting in the maintenance of legacy projects with improvements and new functionalities
 
-## Quero Educação, Junior Web Developer
+## Quero Educação, Web Development Intern - Junior Web Developer
 
-- Sep 2020 to Feb 2021
+- Aug 2019 to Feb 2021
 - São Paulo, Brazil (Remote)
-- Contributed to the development of the Nota Quero application, part of the Vestibular Premiado project, focusing on performance and scalability improvements for both the back-end (Node.js with Nest.js) and front-end (React)
-- Implemented horizontal autoscaling, adjusted Amazon RDS instances, and utilized Amazon SQS queues for messaging, reducing the application's response time from 10 seconds to 0.05 seconds, significantly enhancing the user experience
-- Acted as a DevOps Associate, bridging the gap between the development squad and the DevOps team, implementing AWS solutions and Infrastructure as Code (IaC)
-
-## Quero Educação, Web Development Intern
-
-- Aug 2019 to Sep 2020
-- São Paulo, Brazil
 - Contributed to the development of new features, product improvements, and strategic innovations at Quero, using agile methodologies and modern tools
 - Developed critical features for the app (React Native), including Digital Enrollment and Branding updates, while also participating in React Native version upgrades to ensure best practices and performance optimization
 - Enhanced the resilience and stability of the Digital Enrollment feature by fixing bugs and implementing improvements, delivering a smoother user experience
 - Participated in a multidisciplinary team to test and validate new approaches to the company’s business model, exploring strategic alternatives for expansion and innovation
+- Contributed to the development of the Nota Quero application, part of the Vestibular Premiado project, focusing on performance and scalability improvements for both the back-end (Node.js with Nest.js) and front-end (React)
+- Implemented horizontal autoscaling, adjusted Amazon RDS instances, and utilized Amazon SQS queues for messaging, reducing the application's response time from 10 seconds to 0.05 seconds, significantly enhancing the user experience
+- Acted as a DevOps Associate, bridging the gap between the development squad and the DevOps team, implementing AWS solutions and Infrastructure as Code (IaC)
 
 ## Banco Fibra, Systems Development Intern
 
@@ -84,12 +80,12 @@ I'm also active in Android OS communities, where I contribute with investigation
 
 # Education
 
-## Faculdade Impacta, AT in Systems Analysis and Development
+## Faculdade Impacta, BS in Systems Analysis and Development
 
 - Oct 2020 to Dec 2022
 - São Paulo, Brazil
 
-## Universidade Anhembi Morumbi, AT in Systems Analysis and Development
+## Universidade Anhembi Morumbi, BS in Systems Analysis and Development
 
 - Jul 2019 to Sep 2020
 - São Paulo, Brazil
@@ -100,7 +96,7 @@ I'm also active in Android OS communities, where I contribute with investigation
 - São Paulo, Brazil
 - Health Tech Challenge: In partnership with the Beneficência Portuguesa Hospital, first-year Computer Engineering students were challenged to use new technologies to monitor and reduce noise in hospital corridors by building a line-following robot
 
-## ETEC - Escola Técnica Estadual de São Paulo, TVET in Informatics
+## ETEC - Escola Técnica Estadual de São Paulo, TVET in Informatics (Programming)
 
 - Jan 2016 to Jun 2017
 - Francisco Morato, São Paulo, Brazil
@@ -108,15 +104,9 @@ I'm also active in Android OS communities, where I contribute with investigation
 
 # Projects
 
-## Personal Website
-
-- [github.com/rafifos/website](https://github.com/rafifos/website)
-- Developed a personal website using Next.js, React, TypeScript, and Tailwind CSS
-- Deployed to Vercel with a custom Domain
-
 ## Dotfiles
 
-- [github.com/rafifos/dotfiles](https://github.com/rafifos/dotfiles)
+- [rafifos/dotfiles](https://github.com/rafifos/dotfiles)
 - Bootstraped my development environment with a script that installs all the necessary tools
 - Configured my development environment with Fish, fundle, and custom plugins
 - Management of multiple configurations for different machines
@@ -124,11 +114,42 @@ I'm also active in Android OS communities, where I contribute with investigation
 
 ## Iosevka Custom
 
-- [github.com/rafifos/IosevkaCustom](https://github.com/rafifos/IosevkaCustom)
+- [rafifos/IosevkaCustom](https://github.com/rafifos/IosevkaCustom)
 - Customized the Iosevka font with a few ligatures and symbols
 - Built the font with a custom name and variant
 - Created a pipeline to build the font with GitHub Actions, with the artifacts available for download
 - GitHub actions are cached to speed up the build process
+
+## atdownloader (Archived)
+
+- [rafifos/atdownloader](https://github.com/rafifos/atdownloader)
+- CLI tool to download anime episodes from Anime Twist
+- Written in TypeScript, using oclif
+- Uses semantic-release to automate versioning, changelog generation and publishing to npm
+
+## com.riotgames.League\_of\_Legends (Archived)
+
+- [rafifos/com.riotgames.League_of_Legends](https://github.com/rafifos/com.riotgames.League_of_Legends)
+- Flatpak package for League of Legends
+- Used Winepak
+
+## leagueoflinux (Archived)
+
+- [rafifos/leagueoflinux](https://github.com/rafifos/leagueoflinux)
+- Snap package for League of Legends
+
+## rom\_build (Archived)
+
+- [rafifos/rom_build](https://github.com/rafifos/rom_build)
+- Scripts to build ROMs and Kernels for Android devices
+- Optimized toolschains for ARM
+
+## flyme\_device\_motorola\_ghost (Archived)
+
+- [rafifos/flyme_device_motorola_ghost](https://github.com/rafifos/flyme_device_motorola_ghost)
+- Port of Flyme OS for the Moto X (2013)
+- Kernel and device tree modifications
+- Customizations for the Moto X (2013)
 
 # Technologies
 

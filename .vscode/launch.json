@@ -11,11 +11,7 @@
       "module": "rendercv",
       "args": [
         "render",
-        "src/Rafael_Julio_Lemos_Silva_CV.yaml",
-        "--pdf-path",
-        "Rafael_Julio_Lemos_Silva_CV.pdf",
-        "--markdown-path",
-        "README.md"
+        "src/rafael-julio-lemos-silva-cv.yaml"
       ]
     }
   ]

@@ -13,7 +13,7 @@ cv:
     summary:
       - I'm detail-oriented and always strive to write clean, maintainable, and reusable code. I enjoy automating tasks and environments (Bash, Zsh, dotfiles, Docker, etc.).
       - Graduated in Systems Analysis and Development from Faculdade Impacta, I have experience with Ruby on Rails, JavaScript/TypeScript, and DevOps (containerizing services with Docker, CI/CD pipelines with GitLab CI/CD, GitHub Actions, and AWS CodeBuild), along with working with AWS, Kubernetes, Helm, and Terraform.
-      - My main stack is JavaScript, TypeScript, React, and Next.js.
+      - My main stack is JavaScript, TypeScript, Node.js, React, and Next.js.
       - I'm also active in Android OS communities, where I contribute with investigations, bug fixes, localization, and internal Android components.
     experience:
       - company: International School Education
@@ -55,26 +55,21 @@ cv:
           - Participated in architectural discussions and the development of the company's Design System (MARS), collaborating with the design consultancy across all phases, from prototyping to implementation, ensuring standardization and visual consistency
           - Contributed to the rewrite of the Me Salva! platform using MARS, engaging in architecture, design, and feature implementation decisions, enhancing scalability and modernization
           - Developed internal libraries to improve Developer Experience, configuring TypeScript, linters (ESLint, Prettier), Jest, Conventional Commits, Rollup, semantic-release, and CI/CD (Heroku and GitHub Actions)
+          - Developed an internal CMS allowing the content team to create and manage new pages, and content, improving the platform's agility and reducing the development team's workload
           - Acted as a technical reference for junior developers, providing support, pair programming, and assisting in the maintenance of legacy projects with improvements and new functionalities
       - company: Quero Educação
-        position: Junior Web Developer
+        position: Web Development Intern - Junior Web Developer
         location: São Paulo, Brazil (Remote)
-        start_date: 2020-09
-        end_date: 2021-02
-        highlights:
-          - Contributed to the development of the Nota Quero application, part of the Vestibular Premiado project, focusing on performance and scalability improvements for both the back-end (Node.js with Nest.js) and front-end (React)
-          - Implemented horizontal autoscaling, adjusted Amazon RDS instances, and utilized Amazon SQS queues for messaging, reducing the application's response time from 10 seconds to 0.05 seconds, significantly enhancing the user experience
-          - Acted as a DevOps Associate, bridging the gap between the development squad and the DevOps team, implementing AWS solutions and Infrastructure as Code (IaC)
-      - company: Quero Educação
-        position: Web Development Intern
-        location: São Paulo, Brazil
         start_date: 2019-08
-        end_date: 2020-09
+        end_date: 2021-02
         highlights:
           - Contributed to the development of new features, product improvements, and strategic innovations at Quero, using agile methodologies and modern tools
           - Developed critical features for the app (React Native), including Digital Enrollment and Branding updates, while also participating in React Native version upgrades to ensure best practices and performance optimization
           - Enhanced the resilience and stability of the Digital Enrollment feature by fixing bugs and implementing improvements, delivering a smoother user experience
           - Participated in a multidisciplinary team to test and validate new approaches to the company’s business model, exploring strategic alternatives for expansion and innovation
+          - Contributed to the development of the Nota Quero application, part of the Vestibular Premiado project, focusing on performance and scalability improvements for both the back-end (Node.js with Nest.js) and front-end (React)
+          - Implemented horizontal autoscaling, adjusted Amazon RDS instances, and utilized Amazon SQS queues for messaging, reducing the application's response time from 10 seconds to 0.05 seconds, significantly enhancing the user experience
+          - Acted as a DevOps Associate, bridging the gap between the development squad and the DevOps team, implementing AWS solutions and Infrastructure as Code (IaC)
       - company: Banco Fibra
         position: Systems Development Intern
         location: São Paulo, Brazil
@@ -88,13 +83,13 @@ cv:
     education:
       - institution: Faculdade Impacta
         location: São Paulo, Brazil
-        degree: AT
+        degree: BS
         area: Systems Analysis and Development
         start_date: 2020-10
         end_date: 2022-12
       - institution: Universidade Anhembi Morumbi
         location: São Paulo, Brazil
-        degree: AT
+        degree: BS
         area: Systems Analysis and Development
         start_date: 2019-07
         end_date: 2020-09
@@ -109,31 +104,54 @@ cv:
       - institution: ETEC - Escola Técnica Estadual de São Paulo
         location: Francisco Morato, São Paulo, Brazil
         degree: TVET
-        area: Informatics
+        area: Informatics (Programming)
         highlights:
         - For my thesis, along with a few classmates, I developed a game using the Unity engine, which was presented at the semester's project fair. The project was a low-poly FPS, and I used ray casting for the computation of gunshots.
         start_date: 2016-01
         end_date: 2017-06
+
     projects:
-      - name: Personal Website
-        date: '[github.com/rafifos/website](https://github.com/rafifos/website)'
-        highlights:
-          - Developed a personal website using Next.js, React, TypeScript, and Tailwind CSS
-          - Deployed to Vercel with a custom Domain
       - name: Dotfiles
-        date: '[github.com/rafifos/dotfiles](https://github.com/rafifos/dotfiles)'
+        date: '[rafifos/dotfiles](https://github.com/rafifos/dotfiles)'
         highlights:
           - Bootstraped my development environment with a script that installs all the necessary tools
           - Configured my development environment with Fish, fundle, and custom plugins
           - Management of multiple configurations for different machines
           - Private configurations signed with GPG for security
       - name: Iosevka Custom
-        date: '[github.com/rafifos/IosevkaCustom](https://github.com/rafifos/IosevkaCustom)'
+        date: '[rafifos/IosevkaCustom](https://github.com/rafifos/IosevkaCustom)'
         highlights:
           - Customized the Iosevka font with a few ligatures and symbols
           - Built the font with a custom name and variant
           - Created a pipeline to build the font with GitHub Actions, with the artifacts available for download
           - GitHub actions are cached to speed up the build process
+      - name: atdownloader (Archived)
+        date: '[rafifos/atdownloader](https://github.com/rafifos/atdownloader)'
+        highlights:
+          - CLI tool to download anime episodes from Anime Twist
+          - Written in TypeScript, using oclif
+          - Uses semantic-release to automate versioning, changelog generation and publishing to npm
+      - name: com.riotgames.League\_of\_Legends (Archived)
+        date: '[rafifos/com.riotgames.League_of_Legends](https://github.com/rafifos/com.riotgames.League_of_Legends)'
+        highlights:
+          - Flatpak package for League of Legends
+          - Used Winepak
+      - name: leagueoflinux (Archived)
+        date: '[rafifos/leagueoflinux](https://github.com/rafifos/leagueoflinux)'
+        highlights:
+          - Snap package for League of Legends
+      - name: rom\_build (Archived)
+        date: '[rafifos/rom_build](https://github.com/rafifos/rom_build)'
+        highlights:
+          - Scripts to build ROMs and Kernels for Android devices
+          - Optimized toolschains for ARM
+      - name: flyme\_device\_motorola\_ghost (Archived)
+        date: '[rafifos/flyme_device_motorola_ghost](https://github.com/rafifos/flyme_device_motorola_ghost)'
+        highlights:
+          - Port of Flyme OS for the Moto X (2013)
+          - Kernel and device tree modifications
+          - Customizations for the Moto X (2013)
+
     technologies:
       - label: Languages
         details: HTML, CSS, JavaScript, TypeScript, Shellscript (Bash, Zsh, Fish), Ruby, SQL, JSON, YAML, TOML
@@ -148,7 +166,7 @@ design:
   color: '#004f90'
   disable_external_link_icons: false
   disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
   last_updated_date_style: Last updated in TODAY
   header_font_size: 24 pt
@@ -212,3 +230,14 @@ locale_catalog:
   years: years
   present: present
   to: to
+
+rendercv_settings:
+  render_command:
+    output_folder_name: out
+    pdf_path: NAME_IN_LOWER_KEBAB_CASE-cv.pdf
+    latex_path: NAME_IN_LOWER_KEBAB_CASE-cv.tex
+    html_path: out/NAME_IN_LOWER_KEBAB_CASE-cv.html
+    markdown_path: README.md
+    dont_generate_html: false
+    dont_generate_markdown: false
+    dont_generate_png: false

@@ -56,7 +56,7 @@
 \makeatletter
 \let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
 \patchcmd{\ps@customFooterStyle}{\thepage}{
-    \color{gray}\textit{\small Rafael Julio Lemos Silva - Page \thepage{} of \pageref*{LastPage}}
+    \color{gray}\textit{\small Page \thepage{} of \pageref*{LastPage}}
 }{}{} % replace number by desired string
 \makeatother
 \pagestyle{customFooterStyle}
@@ -204,7 +204,7 @@
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            My main stack is JavaScript, TypeScript, React, and Next.js.
+            My main stack is JavaScript, TypeScript, Node.js, React, and Next.js.
         \end{onecolentry}
 
         \vspace{0.2 cm}
@@ -301,6 +301,7 @@
                 \item Participated in architectural discussions and the development of the company's Design System (MARS), collaborating with the design consultancy across all phases, from prototyping to implementation, ensuring standardization and visual consistency
                 \item Contributed to the rewrite of the Me Salva! platform using MARS, engaging in architecture, design, and feature implementation decisions, enhancing scalability and modernization
                 \item Developed internal libraries to improve Developer Experience, configuring TypeScript, linters (ESLint, Prettier), Jest, Conventional Commits, Rollup, semantic-release, and CI/CD (Heroku and GitHub Actions)
+                \item Developed an internal CMS allowing the content team to create and manage new pages, and content, improving the platform's agility and reducing the development team's workload
                 \item Acted as a technical reference for junior developers, providing support, pair programming, and assisting in the maintenance of legacy projects with improvements and new functionalities
             \end{highlights}
         \end{onecolentry}
@@ -311,29 +312,8 @@
         \begin{twocolentry}{
         \textit{São Paulo, Brazil (Remote)}    
             
-        \textit{Sep 2020 to Feb 2021}}
-            \textbf{Junior Web Developer}
-            
-            \textit{Quero Educação}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Contributed to the development of the Nota Quero application, part of the Vestibular Premiado project, focusing on performance and scalability improvements for both the back-end (Node.js with Nest.js) and front-end (React)
-                \item Implemented horizontal autoscaling, adjusted Amazon RDS instances, and utilized Amazon SQS queues for messaging, reducing the application's response time from 10 seconds to 0.05 seconds, significantly enhancing the user experience
-                \item Acted as a DevOps Associate, bridging the gap between the development squad and the DevOps team, implementing AWS solutions and Infrastructure as Code (IaC)
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-        \textit{São Paulo, Brazil}    
-            
-        \textit{Aug 2019 to Sep 2020}}
-            \textbf{Web Development Intern}
+        \textit{Aug 2019 to Feb 2021}}
+            \textbf{Web Development Intern - Junior Web Developer}
             
             \textit{Quero Educação}
         \end{twocolentry}
@@ -345,6 +325,9 @@
                 \item Developed critical features for the app (React Native), including Digital Enrollment and Branding updates, while also participating in React Native version upgrades to ensure best practices and performance optimization
                 \item Enhanced the resilience and stability of the Digital Enrollment feature by fixing bugs and implementing improvements, delivering a smoother user experience
                 \item Participated in a multidisciplinary team to test and validate new approaches to the company’s business model, exploring strategic alternatives for expansion and innovation
+                \item Contributed to the development of the Nota Quero application, part of the Vestibular Premiado project, focusing on performance and scalability improvements for both the back-end (Node.js with Nest.js) and front-end (React)
+                \item Implemented horizontal autoscaling, adjusted Amazon RDS instances, and utilized Amazon SQS queues for messaging, reducing the application's response time from 10 seconds to 0.05 seconds, significantly enhancing the user experience
+                \item Acted as a DevOps Associate, bridging the gap between the development squad and the DevOps team, implementing AWS solutions and Infrastructure as Code (IaC)
             \end{highlights}
         \end{onecolentry}
 
@@ -384,7 +367,7 @@
         \textit{Oct 2020 to Dec 2022}}
             \textbf{Faculdade Impacta}
 
-            \textit{AT in Systems Analysis and Development}
+            \textit{BS in Systems Analysis and Development}
         \end{twocolentry}
 
 
@@ -397,7 +380,7 @@
         \textit{Jul 2019 to Sep 2020}}
             \textbf{Universidade Anhembi Morumbi}
 
-            \textit{AT in Systems Analysis and Development}
+            \textit{BS in Systems Analysis and Development}
         \end{twocolentry}
 
 
@@ -429,7 +412,7 @@
         \textit{Jan 2016 to Jun 2017}}
             \textbf{ETEC - Escola Técnica Estadual de São Paulo}
 
-            \textit{TVET in Informatics}
+            \textit{TVET in Informatics (Programming)}
         \end{twocolentry}
 
         \vspace{0.10 cm}
@@ -450,25 +433,7 @@
         \begin{twocolentry}{
             
             
-        \textit{\href{https://github.com/rafifos/website}{github.com/rafifos/website}}}
-            \textbf{Personal Website}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Developed a personal website using Next.js, React, TypeScript, and Tailwind CSS
-                \item Deployed to Vercel with a custom Domain
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            
-            
-        \textit{\href{https://github.com/rafifos/dotfiles}{github.com/rafifos/dotfiles}}}
+        \textit{\href{https://github.com/rafifos/dotfiles}{rafifos/dotfiles}}}
             \textbf{Dotfiles}
         \end{twocolentry}
 
@@ -488,7 +453,7 @@
         \begin{twocolentry}{
             
             
-        \textit{\href{https://github.com/rafifos/IosevkaCustom}{github.com/rafifos/IosevkaCustom}}}
+        \textit{\href{https://github.com/rafifos/IosevkaCustom}{rafifos/IosevkaCustom}}}
             \textbf{Iosevka Custom}
         \end{twocolentry}
 
@@ -499,6 +464,97 @@
                 \item Built the font with a custom name and variant
                 \item Created a pipeline to build the font with GitHub Actions, with the artifacts available for download
                 \item GitHub actions are cached to speed up the build process
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{\href{https://github.com/rafifos/atdownloader}{rafifos/atdownloader}}}
+            \textbf{atdownloader (Archived)}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item CLI tool to download anime episodes from Anime Twist
+                \item Written in TypeScript, using oclif
+                \item Uses semantic-release to automate versioning, changelog generation and publishing to npm
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{\href{https://github.com/rafifos/com.riotgames.League_of_Legends}{rafifos/com.riotgames.League\_of\_Legends}}}
+            \textbf{com.riotgames.League\_of\_Legends (Archived)}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Flatpak package for League of Legends
+                \item Used Winepak
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{\href{https://github.com/rafifos/leagueoflinux}{rafifos/leagueoflinux}}}
+            \textbf{leagueoflinux (Archived)}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Snap package for League of Legends
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{\href{https://github.com/rafifos/rom_build}{rafifos/rom\_build}}}
+            \textbf{rom\_build (Archived)}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Scripts to build ROMs and Kernels for Android devices
+                \item Optimized toolschains for ARM
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            
+            
+        \textit{\href{https://github.com/rafifos/flyme_device_motorola_ghost}{rafifos/flyme\_device\_motorola\_ghost}}}
+            \textbf{flyme\_device\_motorola\_ghost (Archived)}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Port of Flyme OS for the Moto X (2013)
+                \item Kernel and device tree modifications
+                \item Customizations for the Moto X (2013)
             \end{highlights}
         \end{onecolentry}
 
