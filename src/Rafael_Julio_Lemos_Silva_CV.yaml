@@ -14,7 +14,7 @@ cv:
       - I'm detail-oriented and always strive to write clean, maintainable, and reusable code. I enjoy automating tasks and environments (Bash, Zsh, dotfiles, Docker, etc.).
       - Graduated in Systems Analysis and Development from Faculdade Impacta, I have experience with Ruby on Rails, JavaScript/TypeScript, and DevOps (containerizing services with Docker, CI/CD pipelines with GitLab CI/CD, GitHub Actions, and AWS CodeBuild), along with working with AWS, Kubernetes, Helm, and Terraform.
       - My main stack is JavaScript, TypeScript, Node.js, React, and Next.js.
-      - I'm also active in Android OS communities, where I contribute with investigations, bug fixes, localization, and internal Android components.
+      - I was also active in some Android OS communities, where I contributed with investigations, bug fixes, localization, and internal Android components for specific Devices (Moto X 2013, Xiaomi Mi 9T).
     experience:
       - company: International School Education
         position: Systems Development Specialist
@@ -25,6 +25,9 @@ cv:
           - Implementation of interactive student activities using H5P
           - Integrations with third-party services
           - Case studies on AI use cases
+          - Tech Lead of the Support Team, refining bug fixes and improvements to our applications.
+          - Development of architectural improvements
+          - Delegation of tasks to other team members
       - company: AeC
         position: Senior Systems Developer
         location: São Paulo, Brazil
