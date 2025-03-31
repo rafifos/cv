@@ -218,9 +218,7 @@ rendercv_settings:
     - Docker
     - AWS
     - Kubernetes
-    - GitHub Actions
     - GitHub
-    - Git
   render_command:
     output_folder_name: out
     pdf_path: out/CV_pt-BR_YEAR-MONTH_IN_TWO_DIGITS.pdf
