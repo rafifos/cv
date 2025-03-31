@@ -3,7 +3,3 @@ __pycache__/
 
 # RenderCV generated files
 out/
-
-# RenderCV generated CVs
-CV_*.pdf
-CV_*.tex

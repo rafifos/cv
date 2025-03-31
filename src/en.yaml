@@ -116,6 +116,13 @@ cv:
         end_date: 2017-06
 
     projects:
+      - name: Otoshi Mono/Otoshi Term
+        date: "[rafifos/otoshi-mono](https://github.com/rafifos/otoshi-mono)"
+        summary: A Typeface of Digital Animism. Forked from Iosevka.
+        highlights:
+          - Created a pipeline to build the font with GitHub Actions, with the artifacts available for download
+          - GitHub actions are cached to speed up the build process
+          - Ligatures (Otoshi Mono) and Monospaced (Otoshi Term) variants
       - name: Dotfiles
         date: "[rafifos/dotfiles](https://github.com/rafifos/dotfiles)"
         highlights:
@@ -123,40 +130,31 @@ cv:
           - Configured my development environment with Fish, fundle, and custom plugins
           - Management of multiple configurations for different machines
           - Private configurations signed with GPG for security
-      - name: Iosevka Custom
-        date: "[rafifos/IosevkaCustom](https://github.com/rafifos/IosevkaCustom)"
-        highlights:
-          - Customized the Iosevka font with a few ligatures and symbols
-          - Built the font with a custom name and variant
-          - Created a pipeline to build the font with GitHub Actions, with the artifacts available for download
-          - GitHub actions are cached to speed up the build process
       - name: atdownloader (Archived)
         date: "[rafifos/atdownloader](https://github.com/rafifos/atdownloader)"
+        summary: CLI tool to download anime episodes from Anime Twist
         highlights:
-          - CLI tool to download anime episodes from Anime Twist
           - Written in TypeScript, using oclif
           - Uses semantic-release to automate versioning, changelog generation and publishing to npm
-      - name: com.riotgames.League\_of\_Legends (Archived)
+      - name: com.riotgames.League_of_Legends (Archived)
         date: "[rafifos/com.riotgames.League_of_Legends](https://github.com/rafifos/com.riotgames.League_of_Legends)"
+        summary: Flatpak package for League of Legends
         highlights:
-          - Flatpak package for League of Legends
           - Used Winepak
       - name: leagueoflinux (Archived)
         date: "[rafifos/leagueoflinux](https://github.com/rafifos/leagueoflinux)"
-        highlights:
-          - Snap package for League of Legends
-      - name: rom\_build (Archived)
+        summary: "Snap package for League of Legends"
+      - name: rom_build (Archived)
         date: "[rafifos/rom_build](https://github.com/rafifos/rom_build)"
         highlights:
           - Scripts to build ROMs and Kernels for Android devices
-          - Optimized toolschains for ARM
-      - name: flyme\_device\_motorola\_ghost (Archived)
+          - Optimized toolchains and flags for ARM
+      - name: flyme_device_motorola_ghost (Archived)
         date: "[rafifos/flyme_device_motorola_ghost](https://github.com/rafifos/flyme_device_motorola_ghost)"
+        summary: Port of Flyme OS for the Moto X (2013)
         highlights:
-          - Port of Flyme OS for the Moto X (2013)
           - Kernel and device tree modifications
           - Customizations for the Moto X (2013)
-
     technologies:
       - label: Languages
         details: HTML, CSS, JavaScript, TypeScript, Shellscript (Bash, Zsh, Fish), Ruby, SQL, JSON, YAML, TOML
@@ -164,83 +162,39 @@ cv:
         details: React, Next.js, Node.js, Ruby on Rails, Docker, AWS, Git, GitHub, GitLab, Android OS, Android Studio, Android SDK, Android Emulator, Android Debug Bridge (ADB), Android Virtual Device Manager (AVD)
 
 design:
-  theme: sb2nov
-  font: Charter
-  font_size: 10pt
-  page_size: a4paper
-  color: "#004f90"
-  disable_external_link_icons: false
-  disable_page_numbering: false
-  page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
-  header_font_size: 24 pt
-  text_alignment: justified
-  seperator_between_connections: ""
-  use_icons_for_connections: true
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 7 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
-
-locale_catalog:
-  phone_number_format: national
-  date_style: "MONTH_ABBREVIATION YEAR"
-  abbreviations_for_months:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - Jun
-    - Jul
-    - Aug
-    - Sep
-    - Oct
-    - Nov
-    - Dec
-  full_names_of_months:
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
-  month: month
-  months: months
-  year: year
-  years: years
-  present: present
-  to: to
+  theme: "sb2nov"
+  page:
+    size: "a4"
+  text:
+    font_family: "XCharter"
+  header:
+    name_font_family: "Noto Sans"
+    connections_font_family: "Noto Sans"
+    separator_between_connections: "|"
+  section_titles:
+    font_family: "Noto Sans"
+  highlights:
+    bullet: "-"
 
 rendercv_settings:
+  bold_keywords:
+    - JavaScript
+    - TypeScript
+    - React
+    - Next.js
+    - Node.js
+    - Ruby
+    - Ruby on Rails
+    - Docker
+    - AWS
+    - Kubernetes
+    - GitHub Actions
+    - GitHub
+    - Git
   render_command:
-    output_folder_name: out/en-US
-    pdf_path: CV_en-US.pdf
-    latex_path: CV_en-US.tex
+    output_folder_name: out
+    pdf_path: out/CV_en-US_YEAR-MONTH_IN_TWO_DIGITS.pdf
+    typst_path: out/CV_en-US_YEAR-MONTH_IN_TWO_DIGITS.typ
     dont_generate_html: true
     dont_generate_markdown: true
     dont_generate_png: true

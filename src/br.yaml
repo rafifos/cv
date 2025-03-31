@@ -105,6 +105,47 @@ cv:
         highlights:
           - "Health Tech Challenge: Parceria com Hospital Beneficência Portuguesa para desenvolvimento de robô seguidor de linha"
 
+    projects:
+      - name: Otoshi Mono/Otoshi Term
+        date: "[rafifos/otoshi-mono](https://github.com/rafifos/otoshi-mono)"
+        summary: "Fonte tipográfica de Animismo Digital. Fork da Iosevka."
+        highlights:
+          - Criação de pipeline para construção da fonte com GitHub Actions, com artefatos disponíveis para download
+          - Ações do GitHub cacheadas para acelerar o processo de build
+          - Variantes com Ligaduras (Otoshi Mono) e Monoespaçada (Otoshi Term)
+      - name: Dotfiles
+        date: "[rafifos/dotfiles](https://github.com/rafifos/dotfiles)"
+        highlights:
+          - Configuração inicial do ambiente de desenvolvimento com script que instala todas as ferramentas necessárias
+          - Ambiente de desenvolvimento configurado com Fish, fundle e plugins personalizados
+          - Gerenciamento de múltiplas configurações para diferentes máquinas
+          - Configurações privadas assinadas com GPG para segurança
+      - name: atdownloader (Arquivado)
+        date: "[rafifos/atdownloader](https://github.com/rafifos/atdownloader)"
+        summary: Ferramenta CLI para download de episódios de anime do Anime Twist
+        highlights:
+          - Desenvolvido em TypeScript utilizando oclif
+          - Uso do semantic-release para automatizar versionamento, geração de changelog e publicação no npm
+      - name: com.riotgames.League_of_Legends (Arquivado)
+        date: "[rafifos/com.riotgames.League_of_Legends](https://github.com/rafifos/com.riotgames.League_of_Legends)"
+        summary: Pacote Flatpak para League of Legends
+        highlights:
+          - Utilização do Winepak
+      - name: leagueoflinux (Arquivado)
+        date: "[rafifos/leagueoflinux](https://github.com/rafifos/leagueoflinux)"
+        summary: Pacote Snap para League of Legends
+      - name: rom_build (Arquivado)
+        date: "[rafifos/rom_build](https://github.com/rafifos/rom_build)"
+        highlights:
+          - Scripts para construção de ROMs e Kernels para dispositivos Android
+          - Toolchains e flags otimizadas para ARM
+      - name: flyme_device_motorola_ghost (Arquivado)
+        date: "[rafifos/flyme_device_motorola_ghost](https://github.com/rafifos/flyme_device_motorola_ghost)"
+        summary: Port do Flyme OS para o Moto X (2013)
+        highlights:
+          - Modificações no Kernel e device tree
+          - Customizações específicas para o Moto X (2013)
+
     technologies:
       - label: Linguagens
         details: HTML, CSS, JavaScript, TypeScript, Shellscript (Bash, Zsh, Fish), Ruby, SQL
@@ -112,45 +153,32 @@ cv:
         details: React, Next.js, Node.js, Ruby on Rails, Docker, AWS, Kubernetes
 
 design:
-  theme: sb2nov
-  font: Charter
-  font_size: 10pt
-  page_size: a4paper
-  color: '#004f90'
-  disable_external_link_icons: false
-  disable_page_numbering: false
-  page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
-  header_font_size: 24 pt
-  text_alignment: justified
-  seperator_between_connections: ''
-  use_icons_for_connections: true
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 7 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
+  theme: "sb2nov"
+  page:
+    size: "a4"
+  text:
+    font_family: "XCharter"
+  header:
+    name_font_family: "Noto Sans"
+    connections_font_family: "Noto Sans"
+    separator_between_connections: "|"
+  section_titles:
+    font_family: "Noto Sans"
+  highlights:
+    bullet: "-"
 
-locale_catalog:
-  present: atual
-  to: até
+locale:
+  language: br
+  phone_number_format: national
+  page_numbering_template: Página PAGE_NUMBER de TOTAL_PAGES
+  last_updated_date_template: Atualizado pela última vez em TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: mês
+  months: meses
+  year: ano
+  years: anos
+  present: presente
+  to: –
   abbreviations_for_months:
     - Jan
     - Fev
@@ -163,7 +191,7 @@ locale_catalog:
     - Set
     - Out
     - Nov
-    - Dez
+    - Dec
   full_names_of_months:
     - Janeiro
     - Fevereiro
@@ -179,10 +207,24 @@ locale_catalog:
     - Dezembro
 
 rendercv_settings:
+  bold_keywords:
+    - JavaScript
+    - TypeScript
+    - React
+    - Next.js
+    - Node.js
+    - Ruby
+    - Ruby on Rails
+    - Docker
+    - AWS
+    - Kubernetes
+    - GitHub Actions
+    - GitHub
+    - Git
   render_command:
-    output_folder_name: out/pt-BR
-    pdf_path: CV_pt-BR.pdf
-    latex_path: CV_pt-BR.tex
+    output_folder_name: out
+    pdf_path: out/CV_pt-BR_YEAR-MONTH_IN_TWO_DIGITS.pdf
+    typst_path: out/CV_pt-BR_YEAR-MONTH_IN_TWO_DIGITS.typ
     dont_generate_html: true
     dont_generate_markdown: true
     dont_generate_png: true

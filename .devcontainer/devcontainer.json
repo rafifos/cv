@@ -5,11 +5,15 @@
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
   "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
   // Use 'onCreateCommand' to run commands after the container is created inside the container:
-  "onCreateCommand": "pip install --user -r requirements.txt",
+  "onCreateCommand": ["pip install --upgrade pip", "pip install --user -r requirements.txt"],
   // Configure tool-specific properties.
   "customizations": {
     "vscode": {
-      "extensions": ["redhat.vscode-yaml", "mathematic.vscode-pdf"]
+      "extensions": [
+        "redhat.vscode-yaml",
+        "mathematic.vscode-pdf",
+        "me-dutour-mathieu.vscode-github-actions"
+      ]
     }
   }
 }

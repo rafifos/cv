@@ -15,9 +15,9 @@ jobs:
       matrix:
         language:
           - name: en-US
-            path: src/en-US/input.yaml
+            path: src/en.yaml
           - name: pt-BR
-            path: src/pt-BR/input.yaml
+            path: src/br.yaml
 
     steps:
       - name: Checkout
@@ -32,8 +32,15 @@ jobs:
           pip install -r requirements.txt
 
       - name: RenderCV (${{ matrix.language.name }})
-        run: |
-          rendercv render ${{ matrix.language.path }}
+        run: rendercv render ${{ matrix.language.path }}
+
+      - name: Upload output files
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-files-${{ matrix.language.name }}
+          path: |
+            out/CV_${{ matrix.language.name }}*.pdf
+            out/CV_${{ matrix.language.name }}*.typ
 
   release:
     needs: build
@@ -42,11 +49,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: cv-output
+
+      - name: Prepare release files
+        run: |
+          mkdir -p release
+          find cv-output -name "*.pdf" -exec cp {} release/ \;
+          find cv-output -name "*.typ" -exec cp {} release/ \;
+
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          files: |
-            *.pdf
-            *.tex
+          files: release/*
           generate_release_notes: true
           make_latest: true

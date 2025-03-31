@@ -9,14 +9,14 @@
       "type": "debugpy",
       "request": "launch",
       "module": "rendercv",
-      "args": ["render", "src/en-US/Rafael_Julio_Lemos_Silva_CV.yaml"]
+      "args": ["render", "src/en.yaml", "--watch"]
     },
     {
       "name": "Run RenderCV (Portuguese)",
       "type": "debugpy",
       "request": "launch",
       "module": "rendercv",
-      "args": ["render", "src/pt-BR/Rafael_Julio_Lemos_Silva_CV.yaml"]
+      "args": ["render", "src/br.yaml", "--watch"]
     }
   ]
 }
