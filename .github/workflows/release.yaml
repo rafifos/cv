@@ -1,4 +1,4 @@
-name: Release a CV
+name: Release CV Versions
 
 on:
   push:
@@ -9,28 +9,44 @@ permissions:
   contents: write
 
 jobs:
-  call_rendercv_workflow:
-    name: RenderCV
-    uses: ./.github/workflows/rendercv.yaml
-
   build:
-    needs: call_rendercv_workflow
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        language:
+          - name: en-US
+            path: src/en-US/input.yaml
+          - name: pt-BR
+            path: src/pt-BR/input.yaml
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          cache: 'pip'
+
+      - name: Install RenderCV
+        run: |
+          pip install -r requirements.txt
+
+      - name: RenderCV (${{ matrix.language.name }})
+        run: |
+          rendercv render ${{ matrix.language.path }}
+
+  release:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download RenderCV Output
-        uses: actions/download-artifact@v4
-        with:
-          name: RenderCV Output
-          path: out
-
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            out/*_CV.pdf
-            out/*_CV.tex
+            *.pdf
+            *.tex
           generate_release_notes: true
           make_latest: true

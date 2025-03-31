@@ -1,0 +1,188 @@
+cv:
+  name: Rafael Julio Lemos Silva
+  location: São Paulo, Brasil
+  email: work@rafifos.dev
+  phone: tel:+55-11-99463-8955
+  website: https://rafifos.dev
+  social_networks:
+    - network: LinkedIn
+      username: rafifos
+    - network: GitHub
+      username: rafifos
+  sections:
+    summary:
+      - Sou detalhista e sempre busco escrever código limpo, sustentável e reutilizável. Gosto de automatizar tarefas e ambientes (Bash, Zsh, dotfiles, Docker, etc.).
+      - Formado em Análise e Desenvolvimento de Sistemas pela Faculdade Impacta, tenho experiência com Ruby on Rails, JavaScript/TypeScript e DevOps (containerização de serviços com Docker, pipelines de CI/CD com GitLab CI/CD, GitHub Actions e AWS CodeBuild), além de trabalhar com AWS, Kubernetes, Helm e Terraform.
+      - Minha stack principal é JavaScript, TypeScript, Node.js, React e Next.js.
+      - Participei ativamente de comunidades do Android OS, contribuindo com investigações, correções de bugs, localização e componentes internos para dispositivos específicos (Moto X 2013, Xiaomi Mi 9T).
+
+    experience:
+      - company: International School Education
+        position: Especialista em Desenvolvimento de Sistemas
+        location: São Paulo, Brasil
+        start_date: 2024-07
+        end_date: present
+        highlights:
+          - Implementação de atividades interativas para alunos usando H5P
+          - Integrações com serviços de terceiros
+          - Estudos de caso sobre uso de IA
+          - Tech Lead do Squad de Sustentação, refinando correções de bugs e melhorias em nossas aplicações
+          - Desenvolvimento de melhorias de arquitetura
+          - Delegação de tarefas para outros membros da equipe
+      - company: AeC
+        position: Desenvolvedor de Sistemas Sênior
+        location: São Paulo, Brasil
+        start_date: 2023-07
+        end_date: 2024-06
+        highlights:
+          - Moderação de comentários para cursos e artigos
+          - Cursos públicos para ampliar o alcance do nosso LMS
+          - Correções de conteúdo SCORM
+          - Otimizações de desempenho do nosso LMS
+          - Relatórios de uso do nosso LMS
+          - Integração com Google Analytics
+      - company: Stefanini Brazil
+        position: Desenvolvedor de Sistemas Sênior
+        location: São Paulo, Brasil
+        start_date: 2023-01
+        end_date: 2023-06
+        highlights:
+          - Desenvolvimento de fluxos como Relatório de Falta de Energia, Reconhecimento Facial e de Envio de Documentos
+          - Criação da Homepage da Agência Digital com navegação intuitiva
+          - Correções de bugs e melhorias da plataforma, mais especificamente na Global Store da aplicação
+      - company: Me Salva!
+        position: Desenvolvedor Web Front-end Pleno
+        location: Porto Alegre, Brasil
+        start_date: 2021-02
+        end_date: 2022-10
+        highlights:
+          - Participação em discussões arquiteturais e desenvolvimento do Design System da empresa (MARS), colaborando com a consultoria de design em todas as fases, desde prototipagem até implementação, garantindo padronização e consistência visual
+          - Contribuição para a reescrita da plataforma Me Salva! usando o MARS, envolvido em decisões de arquitetura, design e implementação de funcionalidades, melhorando escalabilidade e modernização
+          - Desenvolvimento de bibliotecas internas para melhorar a Experiência do Desenvolvedor, configurando TypeScript, linters (ESLint, Prettier), Jest, Conventional Commits, Rollup, semantic-release e CI/CD (Heroku e GitHub Actions)
+          - Criação de um CMS interno permitindo à equipe de conteúdo criar e gerenciar novas páginas e conteúdos, aumentando a agilidade da plataforma e reduzindo carga de trabalho da equipe de desenvolvimento
+          - Atuação como referência técnica para desenvolvedores juniores, oferecendo suporte, pair programming e auxiliando na manutenção de projetos legados com melhorias e novas funcionalidades
+      - company: Quero Educação
+        position: Estagiário em Desenvolvimento Web - Desenvolvedor Web Júnior
+        location: São Paulo, Brasil
+        start_date: 2019-08
+        end_date: 2021-02
+        highlights:
+          - Contribuição para desenvolvimento de novas funcionalidades, melhorias de produto e inovações estratégicas na Quero, utilizando metodologias ágeis e ferramentas modernas
+          - Desenvolvimento de funcionalidades críticas para o aplicativo (React Native), incluindo Matrícula Digital e atualizações de Branding, além de participar de atualizações de versão do React Native para garantir melhores práticas e otimização de performance
+          - Aprimoramento da resiliência e estabilidade do recurso de Matrícula Digital através de correções de bugs e implementação de melhorias, proporcionando experiência de usuário mais fluida
+          - Participação em equipe multidisciplinar para testar e validar novas abordagens do modelo de negócios da empresa, explorando alternativas estratégicas para expansão e inovação
+          - Contribuição para o desenvolvimento do aplicativo Nota Quero, parte do projeto Vestibular Premiado, com foco em melhorias de performance e escalabilidade tanto no back-end (Node.js com Nest.js) quanto no front-end (React)
+          - Implementação de escalonamento horizontal, ajuste de instâncias Amazon RDS e utilização de filas Amazon SQS para mensageria, reduzindo tempo de resposta do aplicativo de 10 segundos para 0.05 segundos
+          - Atuação como Associado DevOps, conectando o squad de desenvolvimento com a equipe de DevOps, implementando soluções AWS e Infrastructure as Code (IaC)
+      - company: Banco Fibra
+        position: Estagiário em Desenvolvimento de Sistemas
+        location: São Paulo, Brasil
+        start_date: 2019-03
+        end_date: 2019-04
+        highlights:
+          - Conversão de macros VB6 para SSRS 2012
+          - Criação e otimização de consultas SQL
+          - Suporte à equipe de operações com bancos de dados e relatórios
+          - Desenvolvimento de soluções que melhoraram a qualidade e velocidade das ferramentas existentes
+
+    education:
+      - institution: Faculdade Impacta
+        location: São Paulo, Brasil
+        degree: Bacharelado
+        area: Análise e Desenvolvimento de Sistemas
+        start_date: 2020-10
+        end_date: 2022-12
+      - institution: Universidade Anhembi Morumbi
+        location: São Paulo, Brazil
+        degree: BS
+        area: Systems Analysis and Development
+        start_date: 2019-07
+        end_date: 2020-09
+      - institution: FIAP
+        location: São Paulo, Brasil
+        degree: Bacharelado
+        area: Engenharia da Computação
+        highlights:
+          - "Health Tech Challenge: Parceria com Hospital Beneficência Portuguesa para desenvolvimento de robô seguidor de linha"
+
+    technologies:
+      - label: Linguagens
+        details: HTML, CSS, JavaScript, TypeScript, Shellscript (Bash, Zsh, Fish), Ruby, SQL
+      - label: Tecnologias
+        details: React, Next.js, Node.js, Ruby on Rails, Docker, AWS, Kubernetes
+
+design:
+  theme: sb2nov
+  font: Charter
+  font_size: 10pt
+  page_size: a4paper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 24 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 7 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+
+locale_catalog:
+  present: atual
+  to: até
+  abbreviations_for_months:
+    - Jan
+    - Fev
+    - Mar
+    - Abr
+    - Mai
+    - Jun
+    - Jul
+    - Ago
+    - Set
+    - Out
+    - Nov
+    - Dez
+  full_names_of_months:
+    - Janeiro
+    - Fevereiro
+    - Março
+    - Abril
+    - Maio
+    - Junho
+    - Julho
+    - Agosto
+    - Setembro
+    - Outubro
+    - Novembro
+    - Dezembro
+
+rendercv_settings:
+  render_command:
+    output_folder_name: out/pt-BR
+    pdf_path: CV_pt-BR.pdf
+    latex_path: CV_pt-BR.tex
+    dont_generate_html: true
+    dont_generate_markdown: true
+    dont_generate_png: true

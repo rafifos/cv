@@ -15,6 +15,7 @@ cv:
       - Graduated in Systems Analysis and Development from Faculdade Impacta, I have experience with Ruby on Rails, JavaScript/TypeScript, and DevOps (containerizing services with Docker, CI/CD pipelines with GitLab CI/CD, GitHub Actions, and AWS CodeBuild), along with working with AWS, Kubernetes, Helm, and Terraform.
       - My main stack is JavaScript, TypeScript, Node.js, React, and Next.js.
       - I was also active in some Android OS communities, where I contributed with investigations, bug fixes, localization, and internal Android components for specific Devices (Moto X 2013, Xiaomi Mi 9T).
+
     experience:
       - company: International School Education
         position: Systems Development Specialist
@@ -25,7 +26,7 @@ cv:
           - Implementation of interactive student activities using H5P
           - Integrations with third-party services
           - Case studies on AI use cases
-          - Tech Lead of the Support Team, refining bug fixes and improvements to our applications.
+          - Tech Lead of the Support Team, refining bug fixes and improvements to our applications
           - Development of architectural improvements
           - Delegation of tasks to other team members
       - company: AeC
@@ -35,10 +36,10 @@ cv:
         end_date: 2024-06
         highlights:
           - Comment moderation for courses and articles
-          - Public courses to expand the LMS's reach
+          - Public courses to expand our LMS's reach
           - Bugfixes for SCORM contents
-          - Optimizations for the LMS's performance
-          - Reports for the LMS's usage
+          - Optimizations for our LMS's performance
+          - Reports for our LMS's usage
           - Google Analytics integration
       - company: Stefanini Brazil
         position: Senior Systems Developer
@@ -46,9 +47,9 @@ cv:
         start_date: 2023-01
         end_date: 2023-06
         highlights:
-          - Development of flows such as Power Outage Reporting and Facial/Document Recognition
+          - Development of flows such as Power Outage Reporting, Facial Recognition and Documents Submission
           - Creation of the Digital Agency Homepage, focusing on intuitive navigation
-          - Bug fixes and improvements to ensure a seamless user experience
+          - Bug fixes and improvements to the platform, more specifically to the Global Store
       - company: Me Salva!
         position: Front-end Web Developer
         location: Porto Alegre, Brazil
@@ -83,6 +84,7 @@ cv:
           - Creation and optimization of SQL queries
           - Support for the operations team with databases and reports
           - Development of solutions that improved the quality and speed of existing tools
+
     education:
       - institution: Faculdade Impacta
         location: São Paulo, Brazil
@@ -109,47 +111,47 @@ cv:
         degree: TVET
         area: Informatics (Programming)
         highlights:
-        - For my thesis, along with a few classmates, I developed a game using the Unity engine, which was presented at the semester's project fair. The project was a low-poly FPS, and I used ray casting for the computation of gunshots.
+          - For my thesis, along with a few classmates, I developed a game using the Unity engine, which was presented at the semester's project fair. The project was a low-poly FPS, and I used ray casting for the computation of gunshots.
         start_date: 2016-01
         end_date: 2017-06
 
     projects:
       - name: Dotfiles
-        date: '[rafifos/dotfiles](https://github.com/rafifos/dotfiles)'
+        date: "[rafifos/dotfiles](https://github.com/rafifos/dotfiles)"
         highlights:
           - Bootstraped my development environment with a script that installs all the necessary tools
           - Configured my development environment with Fish, fundle, and custom plugins
           - Management of multiple configurations for different machines
           - Private configurations signed with GPG for security
       - name: Iosevka Custom
-        date: '[rafifos/IosevkaCustom](https://github.com/rafifos/IosevkaCustom)'
+        date: "[rafifos/IosevkaCustom](https://github.com/rafifos/IosevkaCustom)"
         highlights:
           - Customized the Iosevka font with a few ligatures and symbols
           - Built the font with a custom name and variant
           - Created a pipeline to build the font with GitHub Actions, with the artifacts available for download
           - GitHub actions are cached to speed up the build process
       - name: atdownloader (Archived)
-        date: '[rafifos/atdownloader](https://github.com/rafifos/atdownloader)'
+        date: "[rafifos/atdownloader](https://github.com/rafifos/atdownloader)"
         highlights:
           - CLI tool to download anime episodes from Anime Twist
           - Written in TypeScript, using oclif
           - Uses semantic-release to automate versioning, changelog generation and publishing to npm
       - name: com.riotgames.League\_of\_Legends (Archived)
-        date: '[rafifos/com.riotgames.League_of_Legends](https://github.com/rafifos/com.riotgames.League_of_Legends)'
+        date: "[rafifos/com.riotgames.League_of_Legends](https://github.com/rafifos/com.riotgames.League_of_Legends)"
         highlights:
           - Flatpak package for League of Legends
           - Used Winepak
       - name: leagueoflinux (Archived)
-        date: '[rafifos/leagueoflinux](https://github.com/rafifos/leagueoflinux)'
+        date: "[rafifos/leagueoflinux](https://github.com/rafifos/leagueoflinux)"
         highlights:
           - Snap package for League of Legends
       - name: rom\_build (Archived)
-        date: '[rafifos/rom_build](https://github.com/rafifos/rom_build)'
+        date: "[rafifos/rom_build](https://github.com/rafifos/rom_build)"
         highlights:
           - Scripts to build ROMs and Kernels for Android devices
           - Optimized toolschains for ARM
       - name: flyme\_device\_motorola\_ghost (Archived)
-        date: '[rafifos/flyme_device_motorola_ghost](https://github.com/rafifos/flyme_device_motorola_ghost)'
+        date: "[rafifos/flyme_device_motorola_ghost](https://github.com/rafifos/flyme_device_motorola_ghost)"
         highlights:
           - Port of Flyme OS for the Moto X (2013)
           - Kernel and device tree modifications
@@ -166,7 +168,7 @@ design:
   font: Charter
   font_size: 10pt
   page_size: a4paper
-  color: '#004f90'
+  color: "#004f90"
   disable_external_link_icons: false
   disable_page_numbering: false
   page_numbering_style: Page PAGE_NUMBER of TOTAL_PAGES
@@ -174,7 +176,7 @@ design:
   last_updated_date_style: Last updated in TODAY
   header_font_size: 24 pt
   text_alignment: justified
-  seperator_between_connections: ''
+  seperator_between_connections: ""
   use_icons_for_connections: true
   margins:
     page:
@@ -236,10 +238,9 @@ locale_catalog:
 
 rendercv_settings:
   render_command:
-    output_folder_name: out
-    pdf_path: NAME_IN_SNAKE_CASE_CV.pdf
-    latex_path: NAME_IN_SNAKE_CASE_CV.tex
-    markdown_path: README.md
+    output_folder_name: out/en-US
+    pdf_path: CV_en-US.pdf
+    latex_path: CV_en-US.tex
     dont_generate_html: true
-    dont_generate_markdown: false
+    dont_generate_markdown: true
     dont_generate_png: true
