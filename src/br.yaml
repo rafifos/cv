@@ -17,11 +17,16 @@ cv:
       - Participei ativamente de comunidades do Android OS, contribuindo com investigações, correções de bugs, localização e componentes internos para dispositivos específicos (Moto X 2013, Xiaomi Mi 9T).
 
     experience:
+      - company: Global Hitss
+        position: Desenvolvedor Especialista
+        location: São Paulo, Brasil
+        start_date: 2025-06
+        end_date: present
       - company: International School Education
         position: Especialista em Desenvolvimento de Sistemas
         location: São Paulo, Brasil
         start_date: 2024-07
-        end_date: present
+        end_date: 2025-06
         highlights:
           - Implementação de atividades interativas para alunos usando H5P
           - Integrações com serviços de terceiros
