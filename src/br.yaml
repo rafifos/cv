@@ -141,9 +141,16 @@ cv:
 
     technologies:
       - label: Linguagens
-        details: HTML, CSS, JavaScript, TypeScript, Shellscript (Bash, Zsh, Fish), Ruby, SQL
-      - label: Tecnologias
-        details: React, Next.js, Node.js, NestJS, Ruby on Rails, Docker, AWS, Kubernetes
+        details: JavaScript, TypeScript, HTML, CSS, SQL, Shell Script (Bash, Zsh, Fish), Ruby
+    
+      - label: Frameworks & Runtimes
+        details: React, Next.js, Node.js, NestJS, Ruby on Rails
+    
+      - label: Cloud & DevOps
+        details: AWS, Docker, CI/CD, GitHub Actions, GitLab CI/CD, Infrastructure as Code
+    
+      - label: Ferramentas & Plataformas
+        details: Git, GitHub, Kubernetes
 
 design:
   theme: "sb2nov"
@@ -206,11 +213,13 @@ rendercv_settings:
     - React
     - Next.js
     - Node.js
+    - NestJS
     - Ruby
     - Ruby on Rails
-    - Docker
     - AWS
+    - Docker
     - Kubernetes
+    - CI/CD
     - GitHub
   render_command:
     output_folder_name: out
