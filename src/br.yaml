@@ -193,8 +193,8 @@ settings:
     - CI/CD
     - GitHub
   render_command:
-    pdf_path: out/CV_en-US_YEAR-MONTH_IN_TWO_DIGITS.pdf
-    typst_path: out/CV_en-US_YEAR-MONTH_IN_TWO_DIGITS.typ
+    pdf_path: out/CV_pt-BR_YEAR-MONTH_IN_TWO_DIGITS.pdf
+    typst_path: out/CV_pt-BR_YEAR-MONTH_IN_TWO_DIGITS.typ
     dont_generate_html: true
     dont_generate_markdown: true
     dont_generate_png: true
