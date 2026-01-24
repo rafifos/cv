@@ -4,14 +4,13 @@ cv:
   location: São Paulo, Brasil
   email: work@rafifos.dev
   phone: tel:+55-11-99463-8955
-  website: https://rafifos.dev
   social_networks:
     - network: LinkedIn
       username: rafifos
     - network: GitHub
       username: rafifos
     - network: WhatsApp
-      username: 5511994638955
+      username: "+5511994638955"
   sections:
     summary:
       - Desenvolvedor especializado em Front-end e Back-end com JavaScript e TypeScript, atuando em produtos de médio e grande porte, desde ambientes de experimentação até sistemas críticos em produção.
@@ -127,14 +126,14 @@ cv:
           - Criação de pipeline de build com GitHub Actions, com artefatos prontos para distribuição
           - Otimização do tempo de build por meio de cache
           - Variantes com ligaduras (Otoshi Mono) e monoespaçada (Otoshi Term)
-    
+
       - name: Dotfiles
         date: "[rafifos/dotfiles](https://github.com/rafifos/dotfiles)"
         highlights:
           - Automação completa de setup de ambiente de desenvolvimento
           - Gerenciamento de múltiplas configurações para diferentes máquinas
           - Uso de GPG para proteção de configurações sensíveis
-    
+
       - name: atdownloader (Arquivado)
         date: "[rafifos/atdownloader](https://github.com/rafifos/atdownloader)"
         summary: Ferramenta CLI para download de episódios de Anime
@@ -145,69 +144,69 @@ cv:
     technologies:
       - label: Linguagens
         details: JavaScript, TypeScript, HTML, CSS, SQL, Shell Script (Bash, Zsh, Fish), Ruby
-    
+
       - label: Frameworks & Runtimes
         details: React, Next.js, Node.js, NestJS, Ruby on Rails
-    
+
       - label: Cloud & DevOps
         details: AWS, Docker, CI/CD, GitHub Actions, GitLab CI/CD, Infrastructure as Code
-    
+
       - label: Ferramentas & Plataformas
         details: Git, GitHub, Kubernetes
 
-design:
-  theme: "sb2nov"
-  page:
-    size: "a4"
-  text:
-    font_family: "XCharter"
-  header:
-    name_font_family: "Noto Sans"
-    connections_font_family: "Noto Sans"
-    separator_between_connections: "|"
-  section_titles:
-    font_family: "Noto Sans"
-  highlights:
-    bullet: "-"
+  design:
+    theme: "sb2nov"
+    page:
+      size: "a4"
+    text:
+      font_family: "XCharter"
+    header:
+      name_font_family: "Noto Sans"
+      connections_font_family: "Noto Sans"
+      separator_between_connections: "|"
+    section_titles:
+      font_family: "Noto Sans"
+    highlights:
+      bullet: "-"
 
-locale:
-  language: br
-  phone_number_format: national
-  page_numbering_template: Página PAGE_NUMBER de TOTAL_PAGES
-  last_updated_date_template: Atualizado pela última vez em TODAY
-  date_template: MONTH_ABBREVIATION YEAR
-  month: mês
-  months: meses
-  year: ano
-  years: anos
-  present: presente
-  to: –
-  abbreviations_for_months:
-    - Jan
-    - Fev
-    - Mar
-    - Abr
-    - Mai
-    - Jun
-    - Jul
-    - Ago
-    - Set
-    - Out
-    - Nov
-    - Dec
-  full_names_of_months:
-    - Janeiro
-    - Fevereiro
-    - Março
-    - Abril
-    - Maio
-    - Junho
-    - Julho
-    - Agosto
-    - Setembro
-    - Outubro
-    - Novembro
-    - Dezembro
+  locale:
+    language: br
+    phone_number_format: national
+    page_numbering_template: Página PAGE_NUMBER de TOTAL_PAGES
+    last_updated_date_template: Atualizado pela última vez em TODAY
+    date_template: MONTH_ABBREVIATION YEAR
+    month: mês
+    months: meses
+    year: ano
+    years: anos
+    present: presente
+    to: "-"
+    abbreviations_for_months:
+      - Jan
+      - Fev
+      - Mar
+      - Abr
+      - Mai
+      - Jun
+      - Jul
+      - Ago
+      - Set
+      - Out
+      - Nov
+      - Dec
+    full_names_of_months:
+      - Janeiro
+      - Fevereiro
+      - Março
+      - Abril
+      - Maio
+      - Junho
+      - Julho
+      - Agosto
+      - Setembro
+      - Outubro
+      - Novembro
+      - Dezembro
 
 rendercv_settings:
   bold_keywords:

@@ -4,14 +4,13 @@ cv:
   location: São Paulo, Brazil
   email: work@rafifos.dev
   phone: tel:+55-11-99463-8955
-  website: https://rafifos.dev
   social_networks:
     - network: LinkedIn
       username: rafifos
     - network: GitHub
       username: rafifos
     - network: WhatsApp
-      username: 5511994638955
+      username: "+5511994638955"
   sections:
     summary:
       - Software Engineer specialized in front-end and back-end development with JavaScript and TypeScript, working on mid- to large-scale products, from experimentation environments to mission-critical production systems.
@@ -137,14 +136,14 @@ cv:
           - Built a GitHub Actions pipeline to compile and distribute font artifacts
           - Reduced build time through caching strategies
           - Ligature-enabled (Otoshi Mono) and monospaced (Otoshi Term) variants
-    
+
       - name: Dotfiles
         date: "[rafifos/dotfiles](https://github.com/rafifos/dotfiles)"
         highlights:
           - Fully automated development environment bootstrap
           - Management of multiple configurations across machines
           - Protection of sensitive configurations using GPG
-    
+
       - name: atdownloader (Archived)
         date: "[rafifos/atdownloader](https://github.com/rafifos/atdownloader)"
         summary: CLI tool for downloading anime episodes
@@ -155,30 +154,30 @@ cv:
     technologies:
       - label: Languages
         details: JavaScript, TypeScript, HTML, CSS, SQL, Shell Script (Bash, Zsh, Fish), Ruby
-    
+
       - label: Frameworks & Runtimes
         details: React, Next.js, Node.js, NestJS, Ruby on Rails
-    
+
       - label: Cloud & DevOps
         details: AWS, Docker, CI/CD, GitHub Actions, GitLab CI/CD, Infrastructure as Code
-    
+
       - label: Tooling & Platforms
         details: Git, GitHub, Kubernetes
 
-design:
-  theme: "sb2nov"
-  page:
-    size: "a4"
-  text:
-    font_family: "XCharter"
-  header:
-    name_font_family: "Noto Sans"
-    connections_font_family: "Noto Sans"
-    separator_between_connections: "|"
-  section_titles:
-    font_family: "Noto Sans"
-  highlights:
-    bullet: "-"
+  design:
+    theme: "sb2nov"
+    page:
+      size: "a4"
+    text:
+      font_family: "XCharter"
+    header:
+      name_font_family: "Noto Sans"
+      connections_font_family: "Noto Sans"
+      separator_between_connections: "|"
+    section_titles:
+      font_family: "Noto Sans"
+    highlights:
+      bullet: "-"
 
 rendercv_settings:
   bold_keywords:
