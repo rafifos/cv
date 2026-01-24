@@ -40,8 +40,8 @@ jobs:
         with:
           name: cv-files-${{ matrix.language.name }}
           path: |
-            out/CV_${{ matrix.language.name }}*.pdf
-            out/CV_${{ matrix.language.name }}*.typ
+            src/out/CV_${{ matrix.language.name }}*.pdf
+            src/out/CV_${{ matrix.language.name }}*.typ
 
   release:
     needs: build
