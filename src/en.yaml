@@ -11,10 +11,10 @@ cv:
       username: rafifos
   sections:
     summary:
-      - I'm detail-oriented and always strive to write clean, maintainable, and reusable code. I enjoy automating tasks and environments (Bash, Zsh, dotfiles, Docker, etc.).
-      - Graduated in Systems Analysis and Development from Faculdade Impacta, I have experience with Ruby on Rails, JavaScript/TypeScript, and DevOps (containerizing services with Docker, CI/CD pipelines with GitLab CI/CD, GitHub Actions, and AWS CodeBuild), along with working with AWS, Kubernetes, Helm, and Terraform.
-      - My main stack is JavaScript, TypeScript, Node.js, React, and Next.js.
-      - I was also active in some Android OS communities, where I contributed with investigations, bug fixes, localization, and internal Android components for specific Devices (Moto X 2013, Xiaomi Mi 9T).
+      - Software Engineer specialized in front-end and back-end development with JavaScript and TypeScript, working on mid- to large-scale products, from experimentation environments to mission-critical production systems.
+      - Strong experience with React, Next.js, Node.js, and NestJS, contributing not only to implementation but also to architectural decisions, code quality, scalability, and long-term maintainability.
+      - Proven track record in high-impact contexts, including extreme performance optimization, legacy platform modernization, and operational cost reduction across education, financial, and telecommunications products.
+      - Background in applied AI solutions and DevOps/cloud practices, enabling pilots, validations, and adoption at scale through automation, observability, and close collaboration between engineering and product teams.
 
     experience:
       - company: Global Hitss
@@ -22,6 +22,15 @@ cv:
         location: São Paulo, Brazil
         start_date: 2025-06
         end_date: present
+        highlights:
+          - Member of Claro’s digital experimentation team, focusing on operational cost reduction, customer experience improvement, and faster product decision-making
+          - Development of Proofs of Concept (PoCs) to validate solutions with product hubs such as Self-Service and Claro TV+, with structured transition to pilot projects
+          - Contribution to the Billing Understanding project, an AI-powered solution for analyzing and interpreting customer bills, including multi-bill analysis, identification of charges, penalties, and variations
+          - Implementation of UI improvements and back-end fixes on an existing PoC, preparing the solution for internal validation and potential adoption
+          - End-to-end development of the Billing Dispute PoC, building a Next.js front-end and a NestJS back-end, using OCR to extract billing data not exposed via APIs
+          - Implementation of caching, logging, and architectural best practices to support pilot-scale usage and facilitate technical handoff between teams
+          - Development of the TV Concierge, a personalized content recommendation solution for Claro TV+, prioritizing fast iteration and hypothesis validation
+          - Integration of applications with AI solutions developed by Data Scientists, acting as a bridge between product engineering and machine learning models
       - company: International School Education
         position: Systems Development Specialist
         location: São Paulo, Brazil
@@ -40,21 +49,18 @@ cv:
         start_date: 2023-07
         end_date: 2024-06
         highlights:
-          - Comment moderation for courses and articles
-          - Public courses to expand our LMS's reach
-          - Bugfixes for SCORM contents
-          - Optimizations for our LMS's performance
-          - Reports for our LMS's usage
-          - Google Analytics integration
+          - Maintenance and evolution of a production LMS platform, focusing on stability, scalability, and user experience
+          - Performance optimizations and fixes in SCORM content, improving platform reliability and reducing operational issues
+          - Usage instrumentation and data analysis through reports and Google Analytics integration to support product and operational decisions
       - company: Stefanini Brazil
         position: Senior Systems Developer
         location: São Paulo, Brazil
         start_date: 2023-01
         end_date: 2023-06
         highlights:
-          - Development of flows such as Power Outage Reporting, Facial Recognition and Documents Submission
-          - Creation of the Digital Agency Homepage, focusing on intuitive navigation
-          - Bug fixes and improvements to the platform, more specifically to the Global Store
+          - Development of critical digital flows, including document submission, facial recognition, and operational reporting
+          - Creation and evolution of the Digital Agency homepage, prioritizing usability and intuitive navigation
+          - Structural bug fixes and continuous improvements in core platform modules, including the Global Store
       - company: Me Salva!
         position: Front-end Web Developer
         location: Porto Alegre, Brazil
@@ -123,48 +129,38 @@ cv:
     projects:
       - name: Otoshi Mono/Otoshi Term
         date: "[rafifos/otoshi-mono](https://github.com/rafifos/otoshi-mono)"
-        summary: A Typeface of Digital Animism. Forked from Iosevka.
+        summary: A typeface of Digital Animism. Forked from Iosevka.
         highlights:
-          - Created a pipeline to build the font with GitHub Actions, with the artifacts available for download
-          - GitHub actions are cached to speed up the build process
-          - Ligatures (Otoshi Mono) and Monospaced (Otoshi Term) variants
+          - Built a GitHub Actions pipeline to compile and distribute font artifacts
+          - Reduced build time through caching strategies
+          - Ligature-enabled (Otoshi Mono) and monospaced (Otoshi Term) variants
+    
       - name: Dotfiles
         date: "[rafifos/dotfiles](https://github.com/rafifos/dotfiles)"
         highlights:
-          - Bootstraped my development environment with a script that installs all the necessary tools
-          - Configured my development environment with Fish, fundle, and custom plugins
-          - Management of multiple configurations for different machines
-          - Private configurations signed with GPG for security
+          - Fully automated development environment bootstrap
+          - Management of multiple configurations across machines
+          - Protection of sensitive configurations using GPG
+    
       - name: atdownloader (Archived)
         date: "[rafifos/atdownloader](https://github.com/rafifos/atdownloader)"
-        summary: CLI tool to download anime episodes from Anime Twist
+        summary: CLI tool for downloading anime episodes
         highlights:
-          - Written in TypeScript, using oclif
-          - Uses semantic-release to automate versioning, changelog generation and publishing to npm
-      - name: com.riotgames.League_of_Legends (Archived)
-        date: "[rafifos/com.riotgames.League_of_Legends](https://github.com/rafifos/com.riotgames.League_of_Legends)"
-        summary: Flatpak package for League of Legends
-        highlights:
-          - Used Winepak
-      - name: leagueoflinux (Archived)
-        date: "[rafifos/leagueoflinux](https://github.com/rafifos/leagueoflinux)"
-        summary: "Snap package for League of Legends"
-      - name: rom_build (Archived)
-        date: "[rafifos/rom_build](https://github.com/rafifos/rom_build)"
-        highlights:
-          - Scripts to build ROMs and Kernels for Android devices
-          - Optimized toolchains and flags for ARM
-      - name: flyme_device_motorola_ghost (Archived)
-        date: "[rafifos/flyme_device_motorola_ghost](https://github.com/rafifos/flyme_device_motorola_ghost)"
-        summary: Port of Flyme OS for the Moto X (2013)
-        highlights:
-          - Kernel and device tree modifications
-          - Customizations for the Moto X (2013)
+          - Written in TypeScript using oclif
+          - Automated versioning and publishing with semantic-release
+
     technologies:
       - label: Languages
-        details: HTML, CSS, JavaScript, TypeScript, Shellscript (Bash, Zsh, Fish), Ruby, SQL, JSON, YAML, TOML
-      - label: Technologies
-        details: React, Next.js, Node.js, Ruby on Rails, Docker, AWS, Git, GitHub, GitLab, Android OS, Android Studio, Android SDK, Android Emulator, Android Debug Bridge (ADB), Android Virtual Device Manager (AVD)
+        details: JavaScript, TypeScript, HTML, CSS, SQL, Shell Script (Bash, Zsh, Fish), Ruby
+    
+      - label: Frameworks & Runtimes
+        details: React, Next.js, Node.js, NestJS, Ruby on Rails
+    
+      - label: Cloud & DevOps
+        details: AWS, Docker, CI/CD, GitHub Actions, GitLab CI/CD, Infrastructure as Code
+    
+      - label: Tooling & Platforms
+        details: Git, GitHub, Kubernetes
 
 design:
   theme: "sb2nov"
@@ -188,11 +184,13 @@ rendercv_settings:
     - React
     - Next.js
     - Node.js
+    - NestJS
     - Ruby
     - Ruby on Rails
-    - Docker
     - AWS
+    - Docker
     - Kubernetes
+    - CI/CD
     - GitHub
   render_command:
     output_folder_name: out
