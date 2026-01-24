@@ -179,7 +179,8 @@ cv:
     highlights:
       bullet: "-"
 
-rendercv_settings:
+
+settings:
   bold_keywords:
     - JavaScript
     - TypeScript
@@ -195,7 +196,6 @@ rendercv_settings:
     - CI/CD
     - GitHub
   render_command:
-    output_folder_name: out
     pdf_path: out/CV_en-US_YEAR-MONTH_IN_TWO_DIGITS.pdf
     typst_path: out/CV_en-US_YEAR-MONTH_IN_TWO_DIGITS.typ
     dont_generate_html: true

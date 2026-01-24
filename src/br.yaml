@@ -170,45 +170,14 @@ cv:
       bullet: "-"
 
   locale:
-    language: br
+    language: portuguese
     phone_number_format: national
     page_numbering_template: Página PAGE_NUMBER de TOTAL_PAGES
     last_updated_date_template: Atualizado pela última vez em TODAY
     date_template: MONTH_ABBREVIATION YEAR
-    month: mês
-    months: meses
-    year: ano
-    years: anos
-    present: presente
     to: "-"
-    abbreviations_for_months:
-      - Jan
-      - Fev
-      - Mar
-      - Abr
-      - Mai
-      - Jun
-      - Jul
-      - Ago
-      - Set
-      - Out
-      - Nov
-      - Dec
-    full_names_of_months:
-      - Janeiro
-      - Fevereiro
-      - Março
-      - Abril
-      - Maio
-      - Junho
-      - Julho
-      - Agosto
-      - Setembro
-      - Outubro
-      - Novembro
-      - Dezembro
 
-rendercv_settings:
+settings:
   bold_keywords:
     - JavaScript
     - TypeScript
@@ -224,9 +193,8 @@ rendercv_settings:
     - CI/CD
     - GitHub
   render_command:
-    output_folder_name: out
-    pdf_path: out/CV_pt-BR_YEAR-MONTH_IN_TWO_DIGITS.pdf
-    typst_path: out/CV_pt-BR_YEAR-MONTH_IN_TWO_DIGITS.typ
+    pdf_path: out/CV_en-US_YEAR-MONTH_IN_TWO_DIGITS.pdf
+    typst_path: out/CV_en-US_YEAR-MONTH_IN_TWO_DIGITS.typ
     dont_generate_html: true
     dont_generate_markdown: true
     dont_generate_png: true
