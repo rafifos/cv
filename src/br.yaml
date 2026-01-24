@@ -11,10 +11,12 @@ cv:
       username: rafifos
   sections:
     summary:
-      - Sou detalhista e sempre busco escrever código limpo, sustentável e reutilizável. Gosto de automatizar tarefas e ambientes (Bash, Zsh, dotfiles, Docker, etc.).
-      - Formado em Análise e Desenvolvimento de Sistemas pela Faculdade Impacta, tenho experiência com Ruby on Rails, JavaScript/TypeScript e DevOps (containerização de serviços com Docker, pipelines de CI/CD com GitLab CI/CD, GitHub Actions e AWS CodeBuild), além de trabalhar com AWS, Kubernetes, Helm e Terraform.
-      - Minha stack principal é JavaScript, TypeScript, Node.js, React e Next.js.
-      - Participei ativamente de comunidades do Android OS, contribuindo com investigações, correções de bugs, localização e componentes internos para dispositivos específicos (Moto X 2013, Xiaomi Mi 9T).
+      - Desenvolvedor especializado em sistemas web e plataformas digitais, com atuação consistente em produtos de médio e grande porte, desde ambientes de experimentação até sistemas críticos em produção.
+      - Experiência sólida em front-end e back-end com JavaScript e TypeScript, utilizando React, Next.js, Node.js e NestJS, atuando tanto na implementação quanto em decisões de arquitetura, qualidade e escalabilidade.
+      - Histórico de atuação em contextos de alto impacto, incluindo otimização extrema de performance, automação de processos, modernização de plataformas legadas e redução de custo operacional em produtos educacionais, financeiros e de telecomunicações.
+      - Forte vivência em times multidisciplinares, exercendo papel de referência técnica, liderança informal e ponte entre engenharia, produto, design e ciência de dados.
+      - Experiência prática com aplicações que utilizam IA de forma aplicada, especialmente em fluxos de atendimento, análise de dados e suporte à tomada de decisão, com foco em viabilizar pilotos, validações e adoção em escala.
+      - Background em DevOps e cloud, com uso recorrente de Docker, AWS, CI/CD e automação de ambientes para acelerar ciclos de entrega, experimentação e manutenção de sistemas complexos.
 
     experience:
       - company: Global Hitss
@@ -22,6 +24,15 @@ cv:
         location: São Paulo, Brasil
         start_date: 2025-06
         end_date: present
+        highlights:
+          - Atuação em time de experimentação digital da Claro, desenvolvendo Proofs of Concept (PoCs) para validação de soluções junto a hubs de produto como Autoatendimento e Claro TV+
+          - Desenvolvimento e evolução de PoCs com foco em transição para projetos piloto, permitindo validação com usuários reais antes de decisões de implementação em produção
+          - Participação no projeto de Entendimento de Fatura, solução baseada em IA para análise e interpretação de faturas de clientes, incluindo leitura de múltiplas faturas, identificação de valores, multas e variações
+          - Implementação de melhorias de interface e correções de back-end em PoC existente, preparando a solução para apresentação e adoção por hubs internos
+          - Desenvolvimento end-to-end da PoC de Contestação de Fatura, criando front-end em Next.js e back-end em NestJS, com uso de OCR para extração de dados específicos da fatura que não são disponibilizados via API
+          - Implementação de mecanismos de cache, logging e boas práticas de arquitetura para viabilizar uso em escala piloto e facilitar handoff técnico
+          - Desenvolvimento do Concierge de TV, solução de recomendação de conteúdo personalizada para o Claro TV+, utilizando Next.js como base para rápida iteração e validação de hipóteses
+          - Integração das aplicações com soluções de IA desenvolvidas por Cientistas de Dados, atuando como ponte entre engenharia de produto e modelos de machine learning
       - company: International School Education
         position: Especialista em Desenvolvimento de Sistemas
         location: São Paulo, Brasil
@@ -155,7 +166,7 @@ cv:
       - label: Linguagens
         details: HTML, CSS, JavaScript, TypeScript, Shellscript (Bash, Zsh, Fish), Ruby, SQL
       - label: Tecnologias
-        details: React, Next.js, Node.js, Ruby on Rails, Docker, AWS, Kubernetes
+        details: React, Next.js, Node.js, NestJS, Ruby on Rails, Docker, AWS, Kubernetes
 
 design:
   theme: "sb2nov"
