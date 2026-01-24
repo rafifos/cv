@@ -11,27 +11,25 @@ cv:
       username: rafifos
   sections:
     summary:
-      - Desenvolvedor especializado em sistemas web e plataformas digitais, com atuação consistente em produtos de médio e grande porte, desde ambientes de experimentação até sistemas críticos em produção.
-      - Experiência sólida em front-end e back-end com JavaScript e TypeScript, utilizando React, Next.js, Node.js e NestJS, atuando tanto na implementação quanto em decisões de arquitetura, qualidade e escalabilidade.
-      - Histórico de atuação em contextos de alto impacto, incluindo otimização extrema de performance, automação de processos, modernização de plataformas legadas e redução de custo operacional em produtos educacionais, financeiros e de telecomunicações.
-      - Forte vivência em times multidisciplinares, exercendo papel de referência técnica, liderança informal e ponte entre engenharia, produto, design e ciência de dados.
-      - Experiência prática com aplicações que utilizam IA de forma aplicada, especialmente em fluxos de atendimento, análise de dados e suporte à tomada de decisão, com foco em viabilizar pilotos, validações e adoção em escala.
-      - Background em DevOps e cloud, com uso recorrente de Docker, AWS, CI/CD e automação de ambientes para acelerar ciclos de entrega, experimentação e manutenção de sistemas complexos.
+      - Desenvolvedor especializado em Front-end e Back-end com JavaScript e TypeScript, atuando em produtos de médio e grande porte, desde ambientes de experimentação até sistemas críticos em produção.
+      - Experiência sólida com React, Next.js, Node.js e NestJS, participando tanto da implementação quanto de decisões de arquitetura, qualidade, escalabilidade e manutenção de longo prazo.
+      - Histórico de atuação em contextos de alto impacto, incluindo otimização de performance, modernização de plataformas legadas e redução de custo operacional em produtos educacionais, financeiros e de telecomunicações.
+      - Background em aplicações que utilizam IA de forma aplicada e em DevOps/Cloud, viabilizando pilotos, validações e adoção em escala por meio de automação, observabilidade e integração entre times técnicos e de produto.
 
     experience:
       - company: Global Hitss
-        position: Desenvolvedor Especialista
+        position: Especialista Desenvolvedor
         location: São Paulo, Brasil
         start_date: 2025-06
         end_date: present
         highlights:
-          - Atuação em time de experimentação digital da Claro, desenvolvendo Proofs of Concept (PoCs) para validação de soluções junto a hubs de produto como Autoatendimento e Claro TV+
-          - Desenvolvimento e evolução de PoCs com foco em transição para projetos piloto, permitindo validação com usuários reais antes de decisões de implementação em produção
-          - Participação no projeto de Entendimento de Fatura, solução baseada em IA para análise e interpretação de faturas de clientes, incluindo leitura de múltiplas faturas, identificação de valores, multas e variações
-          - Implementação de melhorias de interface e correções de back-end em PoC existente, preparando a solução para apresentação e adoção por hubs internos
-          - Desenvolvimento end-to-end da PoC de Contestação de Fatura, criando front-end em Next.js e back-end em NestJS, com uso de OCR para extração de dados específicos da fatura que não são disponibilizados via API
-          - Implementação de mecanismos de cache, logging e boas práticas de arquitetura para viabilizar uso em escala piloto e facilitar handoff técnico
-          - Desenvolvimento do Concierge de TV, solução de recomendação de conteúdo personalizada para o Claro TV+, utilizando Next.js como base para rápida iteração e validação de hipóteses
+          - Atuação em time de experimentação digital da Claro, com foco em redução de custo operacional, melhoria da experiência do cliente e aceleração de decisões de produto
+          - Desenvolvimento de Proofs of Concept (PoCs) para validação de soluções junto a hubs como Minha Claro e Claro TV+, com transição estruturada para projetos piloto
+          - Participação no projeto de Entendimento de Fatura, solução baseada em IA para análise e interpretação de faturas, incluindo leitura de múltiplas faturas, identificação de valores, multas e variações
+          - Implementação de melhorias de interface e correções de back-end em PoC existente, preparando a solução para apresentação, validação e possível adoção por hubs internos
+          - Desenvolvimento end-to-end da PoC de Contestação de Fatura, com Front-end em Next.js e Back-end em NestJS, utilizando OCR para extração de dados não disponibilizados via API
+          - Implementação de cache, logging e boas práticas de arquitetura para viabilizar uso em escala piloto e facilitar handoff técnico entre times
+          - Desenvolvimento do Concierge de TV, solução de recomendação de conteúdo personalizada para o Claro TV+, priorizando rápida iteração e validação de hipóteses
           - Integração das aplicações com soluções de IA desenvolvidas por Cientistas de Dados, atuando como ponte entre engenharia de produto e modelos de machine learning
       - company: International School Education
         position: Especialista em Desenvolvimento de Sistemas
@@ -51,21 +49,18 @@ cv:
         start_date: 2023-07
         end_date: 2024-06
         highlights:
-          - Moderação de comentários para cursos e artigos
-          - Cursos públicos para ampliar o alcance do nosso LMS
-          - Correções de conteúdo SCORM
-          - Otimizações de desempenho do nosso LMS
-          - Relatórios de uso do nosso LMS
-          - Integração com Google Analytics
+          - Evolução e manutenção de plataforma LMS em produção, com foco em estabilidade, escalabilidade e experiência do usuário
+          - Otimizações de desempenho e correções em conteúdos SCORM, reduzindo falhas operacionais e melhorando a confiabilidade da plataforma
+          - Instrumentação e análise de uso da plataforma por meio de relatórios e integração com Google Analytics para suporte à tomada de decisão
       - company: Stefanini Brazil
         position: Desenvolvedor de Sistemas Sênior
         location: São Paulo, Brasil
         start_date: 2023-01
         end_date: 2023-06
         highlights:
-          - Desenvolvimento de fluxos como Relatório de Falta de Energia, Reconhecimento Facial e de Envio de Documentos
-          - Criação da Homepage da Agência Digital com navegação intuitiva
-          - Correções de bugs e melhorias da plataforma, mais especificamente na Global Store da aplicação
+          - Desenvolvimento de fluxos digitais críticos, incluindo envio de documentos, reconhecimento facial e relatórios operacionais
+          - Criação e evolução da Homepage da Agência Digital, priorizando navegação intuitiva e experiência do usuário
+          - Correções estruturais e melhorias contínuas em módulos centrais da plataforma, incluindo a Global Store
       - company: Me Salva!
         position: Desenvolvedor Web Front-end Pleno
         location: Porto Alegre, Brasil
@@ -126,41 +121,23 @@ cv:
         date: "[rafifos/otoshi-mono](https://github.com/rafifos/otoshi-mono)"
         summary: "Fonte tipográfica de Animismo Digital. Fork da Iosevka."
         highlights:
-          - Criação de pipeline para construção da fonte com GitHub Actions, com artefatos disponíveis para download
-          - Ações do GitHub cacheadas para acelerar o processo de build
-          - Variantes com Ligaduras (Otoshi Mono) e Monoespaçada (Otoshi Term)
+          - Criação de pipeline de build com GitHub Actions, com artefatos prontos para distribuição
+          - Otimização do tempo de build por meio de cache
+          - Variantes com ligaduras (Otoshi Mono) e monoespaçada (Otoshi Term)
+    
       - name: Dotfiles
         date: "[rafifos/dotfiles](https://github.com/rafifos/dotfiles)"
         highlights:
-          - Configuração inicial do ambiente de desenvolvimento com script que instala todas as ferramentas necessárias
-          - Ambiente de desenvolvimento configurado com Fish, fundle e plugins personalizados
+          - Automação completa de setup de ambiente de desenvolvimento
           - Gerenciamento de múltiplas configurações para diferentes máquinas
-          - Configurações privadas assinadas com GPG para segurança
+          - Uso de GPG para proteção de configurações sensíveis
+    
       - name: atdownloader (Arquivado)
         date: "[rafifos/atdownloader](https://github.com/rafifos/atdownloader)"
-        summary: Ferramenta CLI para download de episódios de anime do Anime Twist
+        summary: Ferramenta CLI para download de episódios de Anime
         highlights:
           - Desenvolvido em TypeScript utilizando oclif
-          - Uso do semantic-release para automatizar versionamento, geração de changelog e publicação no npm
-      - name: com.riotgames.League_of_Legends (Arquivado)
-        date: "[rafifos/com.riotgames.League_of_Legends](https://github.com/rafifos/com.riotgames.League_of_Legends)"
-        summary: Pacote Flatpak para League of Legends
-        highlights:
-          - Utilização do Winepak
-      - name: leagueoflinux (Arquivado)
-        date: "[rafifos/leagueoflinux](https://github.com/rafifos/leagueoflinux)"
-        summary: Pacote Snap para League of Legends
-      - name: rom_build (Arquivado)
-        date: "[rafifos/rom_build](https://github.com/rafifos/rom_build)"
-        highlights:
-          - Scripts para construção de ROMs e Kernels para dispositivos Android
-          - Toolchains e flags otimizadas para ARM
-      - name: flyme_device_motorola_ghost (Arquivado)
-        date: "[rafifos/flyme_device_motorola_ghost](https://github.com/rafifos/flyme_device_motorola_ghost)"
-        summary: Port do Flyme OS para o Moto X (2013)
-        highlights:
-          - Modificações no Kernel e device tree
-          - Customizações específicas para o Moto X (2013)
+          - Automação de versionamento e publicação com semantic-release
 
     technologies:
       - label: Linguagens
