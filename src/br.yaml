@@ -1,5 +1,6 @@
 cv:
   name: Rafael Julio Lemos Silva
+  headline: Senior Software Engineer | Full-Stack (React, Next.js, Node.js, NestJS) | Product & Experimentation
   location: São Paulo, Brasil
   email: work@rafifos.dev
   phone: tel:+55-11-99463-8955
@@ -9,6 +10,8 @@ cv:
       username: rafifos
     - network: GitHub
       username: rafifos
+    - network: WhatsApp
+      username: https://wa.me/5511994638955
   sections:
     summary:
       - Desenvolvedor especializado em Front-end e Back-end com JavaScript e TypeScript, atuando em produtos de médio e grande porte, desde ambientes de experimentação até sistemas críticos em produção.
